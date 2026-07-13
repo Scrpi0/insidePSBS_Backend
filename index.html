@@ -988,7 +988,7 @@
             <div class="sl-prose sl-markdown-viewer sl-my-4">
                 <h1 id="introduction">Introduction</h1>
 <aside>
-    <strong>Base URL</strong>: <code>http://localhost:8000</code>
+    <strong>Base URL</strong>: <code>http://localhost</code>
 </aside>
 <p>This documentation aims to provide all the information you need to work with our API.</p>
 <aside>As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
@@ -1020,7 +1020,7 @@ You can switch the language used with the tabs at the top right (or from the nav
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/register"
+            <div title="http://localhost/api/register"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -1030,7 +1030,7 @@ You can switch the language used with the tabs at the top right (or from the nav
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/register</div>
                     </div>
 
@@ -1380,7 +1380,7 @@ You can switch the language used with the tabs at the top right (or from the nav
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/register" \
+    "http://localhost/api/register" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -1403,7 +1403,7 @@ You can switch the language used with the tabs at the top right (or from the nav
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/register"
+    "http://localhost/api/register"
 );
 
 const headers = {
@@ -1507,12 +1507,12 @@ fetch(url, {
         &quot;phone&quot;: &quot;0601020304&quot;,
         &quot;admission_year&quot;: 2024,
         &quot;birth_date&quot;: &quot;2012-12-12&quot;,
-        &quot;updated_at&quot;: &quot;2026-07-13T09:33:32.000000Z&quot;,
-        &quot;created_at&quot;: &quot;2026-07-13T09:33:32.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-07-13T09:49:59.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2026-07-13T09:49:59.000000Z&quot;,
         &quot;id&quot;: 102,
         &quot;expo_token&quot;: null
     },
-    &quot;token&quot;: &quot;104|qYUUkDHNYA3uAEYfFxbaib94C9E3IBV1YWPCYRck2ef8855a&quot;
+    &quot;token&quot;: &quot;104|L3Uj5BTTk01oKSiRrm3LJIct4UXJpMIw8mLLQQpad1feed53&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -1533,7 +1533,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/register/availability"
+            <div title="http://localhost/api/register/availability"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -1543,7 +1543,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/register/availability</div>
                     </div>
 
@@ -1694,7 +1694,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/register/availability?email=email%40email.com&amp;user_name=SuperUs3r&amp;phone=0601020304" \
+    --get "http://localhost/api/register/availability?email=email%40email.com&amp;user_name=SuperUs3r&amp;phone=0601020304" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -1704,7 +1704,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/register/availability"
+    "http://localhost/api/register/availability"
 );
 
 const params = {
@@ -1813,7 +1813,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/login"
+            <div title="http://localhost/api/login"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -1823,7 +1823,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/login</div>
                     </div>
 
@@ -1906,7 +1906,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        nmraz@example.com
+                        christop.weber@example.net
                     </div>
                 </div>
             </div>
@@ -1930,7 +1930,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        V-|i$133W9
+                        %%C=5J&lt;%
                     </div>
                 </div>
             </div>
@@ -1968,12 +1968,12 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/login" \
+    "http://localhost/api/login" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"email\": \"nmraz@example.com\",
-    \"password\": \"V-|i$133W9\"
+    \"email\": \"christop.weber@example.net\",
+    \"password\": \"%%C=5J&lt;%\"
 }"
 </code></pre>                                        </div>
                                     </div>
@@ -1983,7 +1983,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/login"
+    "http://localhost/api/login"
 );
 
 const headers = {
@@ -1992,8 +1992,8 @@ const headers = {
 };
 
 let body = {
-    "email": "nmraz@example.com",
-    "password": "V-|i$133W9"
+    "email": "christop.weber@example.net",
+    "password": "%%C=5J&lt;%"
 };
 
 fetch(url, {
@@ -2094,7 +2094,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/forgot-password"
+            <div title="http://localhost/api/forgot-password"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -2104,7 +2104,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/forgot-password</div>
                     </div>
 
@@ -2187,7 +2187,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        lterry@example.net
+                        zoie.zieme@example.com
                     </div>
                 </div>
             </div>
@@ -2225,11 +2225,11 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/forgot-password" \
+    "http://localhost/api/forgot-password" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"email\": \"lterry@example.net\"
+    \"email\": \"zoie.zieme@example.com\"
 }"
 </code></pre>                                        </div>
                                     </div>
@@ -2239,7 +2239,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/forgot-password"
+    "http://localhost/api/forgot-password"
 );
 
 const headers = {
@@ -2248,7 +2248,7 @@ const headers = {
 };
 
 let body = {
-    "email": "lterry@example.net"
+    "email": "zoie.zieme@example.com"
 };
 
 fetch(url, {
@@ -2345,7 +2345,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/logout"
+            <div title="http://localhost/api/logout"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -2355,7 +2355,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/logout</div>
                     </div>
 
@@ -2465,7 +2465,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/logout" \
+    "http://localhost/api/logout" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -2476,7 +2476,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/logout"
+    "http://localhost/api/logout"
 );
 
 const headers = {
@@ -2578,7 +2578,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/check"
+            <div title="http://localhost/api/check"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -2588,7 +2588,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/check</div>
                     </div>
 
@@ -2676,7 +2676,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/check" \
+    --get "http://localhost/api/check" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -2686,7 +2686,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/check"
+    "http://localhost/api/check"
 );
 
 const headers = {
@@ -2787,7 +2787,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/password"
+            <div title="http://localhost/api/password"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -2797,7 +2797,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/password</div>
                     </div>
 
@@ -2983,7 +2983,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/password" \
+    "http://localhost/api/password" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
@@ -3000,7 +3000,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/password"
+    "http://localhost/api/password"
 );
 
 const headers = {
@@ -3115,7 +3115,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/email/verification-notification"
+            <div title="http://localhost/api/email/verification-notification"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -3125,7 +3125,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/email/verification-notification</div>
                     </div>
 
@@ -3235,7 +3235,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/email/verification-notification" \
+    "http://localhost/api/email/verification-notification" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -3246,7 +3246,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/email/verification-notification"
+    "http://localhost/api/email/verification-notification"
 );
 
 const headers = {
@@ -3356,7 +3356,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/event"
+            <div title="http://localhost/api/event"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -3366,7 +3366,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/event</div>
                     </div>
 
@@ -3508,7 +3508,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        18
+                        16
                     </div>
                 </div>
             </div>
@@ -3527,7 +3527,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        sunt
+                        adipisci
                     </div>
                 </div>
             </div>
@@ -3586,7 +3586,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/event?per_page=10&amp;start_at=2020-07-08T18%3A24%3A53&amp;organization_id=18&amp;previous_date=sunt&amp;page=1" \
+    --get "http://localhost/api/event?per_page=10&amp;start_at=2020-07-08T18%3A24%3A53&amp;organization_id=16&amp;previous_date=adipisci&amp;page=1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -3597,14 +3597,14 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/event"
+    "http://localhost/api/event"
 );
 
 const params = {
     "per_page": "10",
     "start_at": "2020-07-08T18:24:53",
-    "organization_id": "18",
-    "previous_date": "sunt",
+    "organization_id": "16",
+    "previous_date": "adipisci",
     "page": "1",
 };
 Object.keys(params)
@@ -3709,7 +3709,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/event/{id}"
+            <div title="http://localhost/api/event/{id}"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -3719,7 +3719,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/event/{id}</div>
                     </div>
 
@@ -3859,7 +3859,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/event/1" \
+    --get "http://localhost/api/event/1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -3870,7 +3870,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/event/1"
+    "http://localhost/api/event/1"
 );
 
 const headers = {
@@ -3953,24 +3953,24 @@ fetch(url, {
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: {
         &quot;id&quot;: 1,
-        &quot;title&quot;: &quot;Quae velit at in voluptate repellendus unde.&quot;,
+        &quot;title&quot;: &quot;Quo ex dolores quasi facilis animi culpa voluptatem.&quot;,
         &quot;date_format&quot;: {
-            &quot;start_at_simplified&quot;: &quot;17/07 23h56&quot;,
-            &quot;end_at_simplified&quot;: &quot;18/07 09h44&quot;,
-            &quot;date&quot;: &quot;vendredi&quot;,
+            &quot;start_at_simplified&quot;: &quot;21/07 14h39&quot;,
+            &quot;end_at_simplified&quot;: &quot;22/07 10h01&quot;,
+            &quot;date&quot;: &quot;dans 1 semaine&quot;,
             &quot;days_diff&quot;: 0
         },
-        &quot;start_at&quot;: &quot;2026-07-17 23:56:33&quot;,
-        &quot;end_at&quot;: &quot;2026-07-18 09:44:16&quot;,
-        &quot;location&quot;: &quot;568 Sanford Fall\nMoenbury, WI 09510-6663&quot;,
-        &quot;color&quot;: &quot;#D20808&quot;,
+        &quot;start_at&quot;: &quot;2026-07-21 14:39:03&quot;,
+        &quot;end_at&quot;: &quot;2026-07-22 10:01:46&quot;,
+        &quot;location&quot;: &quot;14121 Griffin Curve Suite 874\nLake Svenfurt, NH 20103-6395&quot;,
+        &quot;color&quot;: &quot;#0865D2&quot;,
         &quot;author&quot;: {
             &quot;user_is_author&quot;: false,
             &quot;is_organization&quot;: true,
-            &quot;id&quot;: 19,
-            &quot;name&quot;: &quot;Elenor&quot;,
-            &quot;short_name&quot;: &quot;eligendi&quot;,
-            &quot;user_name&quot;: &quot;gerlach.hayley&quot;,
+            &quot;id&quot;: 2,
+            &quot;name&quot;: &quot;Nicklaus&quot;,
+            &quot;short_name&quot;: &quot;exercitationem&quot;,
+            &quot;user_name&quot;: &quot;jast.nils&quot;,
             &quot;logo_url&quot;: null
         }
     }
@@ -3994,7 +3994,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/event/{id}"
+            <div title="http://localhost/api/event/{id}"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -4004,7 +4004,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/event/{id}</div>
                     </div>
 
@@ -4145,7 +4145,7 @@ by either the original author or a member of the event's organization</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/event/1" \
+    "http://localhost/api/event/1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -4156,7 +4156,7 @@ by either the original author or a member of the event's organization</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/event/1"
+    "http://localhost/api/event/1"
 );
 
 const headers = {
@@ -4272,7 +4272,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/categories"
+            <div title="http://localhost/api/categories"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -4282,7 +4282,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/categories</div>
                     </div>
 
@@ -4436,7 +4436,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/categories?is_shown=1&amp;search=admi" \
+    --get "http://localhost/api/categories?is_shown=1&amp;search=admi" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -4447,7 +4447,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/categories"
+    "http://localhost/api/categories"
 );
 
 const params = {
@@ -4569,7 +4569,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/categories"
+            <div title="http://localhost/api/categories"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -4579,7 +4579,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/categories</div>
                     </div>
 
@@ -4762,7 +4762,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/categories" \
+    "http://localhost/api/categories" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
@@ -4780,7 +4780,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/categories"
+    "http://localhost/api/categories"
 );
 
 const headers = {
@@ -4898,7 +4898,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/contents"
+            <div title="http://localhost/api/contents"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -4908,7 +4908,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/contents</div>
                     </div>
 
@@ -5137,7 +5137,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        2026-07-13T11:33:33
+                        2026-07-13T11:50:01
                     </div>
                 </div>
             </div>
@@ -5248,7 +5248,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/contents" \
+    "http://localhost/api/contents" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
@@ -5258,7 +5258,7 @@ fetch(url, {
     \"organization_id\": 3,
     \"start_at\": \"2026-07-08T18:24:53\",
     \"end_at\": \"2026-07-08T19:24:53\",
-    \"uploaded_at\": \"2026-07-13T11:33:33\",
+    \"uploaded_at\": \"2026-07-13T11:50:01\",
     \"location\": \"7 golden street, Eldorado\",
     \"create_event\": \"1\",
     \"create_post\": \"1\"
@@ -5271,7 +5271,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/contents"
+    "http://localhost/api/contents"
 );
 
 const headers = {
@@ -5286,7 +5286,7 @@ let body = {
     "organization_id": 3,
     "start_at": "2026-07-08T18:24:53",
     "end_at": "2026-07-08T19:24:53",
-    "uploaded_at": "2026-07-13T11:33:33",
+    "uploaded_at": "2026-07-13T11:50:01",
     "location": "7 golden street, Eldorado",
     "create_event": "1",
     "create_post": "1"
@@ -5394,7 +5394,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/fouaille"
+            <div title="http://localhost/api/fouaille"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -5404,7 +5404,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/fouaille</div>
                     </div>
 
@@ -5564,7 +5564,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/fouaille?per_page=10&amp;page=1" \
+    --get "http://localhost/api/fouaille?per_page=10&amp;page=1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -5575,7 +5575,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/fouaille"
+    "http://localhost/api/fouaille"
 );
 
 const params = {
@@ -5666,11 +5666,19 @@ fetch(url, {
     &quot;data&quot;: {
         &quot;orders&quot;: [
             {
-                &quot;date&quot;: &quot;2026-07-13 11:32:59&quot;,
+                &quot;date&quot;: &quot;2026-07-13 11:21:25&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 110.7,
-                &quot;total_price&quot;: &quot;-3.20&quot;,
-                &quot;amount&quot;: 2,
+                &quot;actual_balance&quot;: 57.5,
+                &quot;total_price&quot;: &quot;50.00&quot;,
+                &quot;amount&quot;: 1,
+                &quot;product&quot;: null
+            },
+            {
+                &quot;date&quot;: &quot;2026-07-13 11:03:44&quot;,
+                &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
+                &quot;actual_balance&quot;: 59.1,
+                &quot;total_price&quot;: &quot;-1.60&quot;,
+                &quot;amount&quot;: 1,
                 &quot;product&quot;: {
                     &quot;name&quot;: &quot;bordeaux&quot;,
                     &quot;type&quot;: &quot;oeno&quot;,
@@ -5678,11 +5686,11 @@ fetch(url, {
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-13 11:00:49&quot;,
+                &quot;date&quot;: &quot;2026-07-13 09:09:02&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 116.7,
-                &quot;total_price&quot;: &quot;-6.00&quot;,
-                &quot;amount&quot;: 2,
+                &quot;actual_balance&quot;: 68.1,
+                &quot;total_price&quot;: &quot;-9.00&quot;,
+                &quot;amount&quot;: 3,
                 &quot;product&quot;: {
                     &quot;name&quot;: &quot;fromage&quot;,
                     &quot;type&quot;: &quot;repas&quot;,
@@ -5690,23 +5698,35 @@ fetch(url, {
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-13 05:49:39&quot;,
+                &quot;date&quot;: &quot;2026-07-13 08:34:43&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 119.7,
-                &quot;total_price&quot;: &quot;-3.00&quot;,
+                &quot;actual_balance&quot;: 76.1,
+                &quot;total_price&quot;: &quot;-8.00&quot;,
+                &quot;amount&quot;: 4,
+                &quot;product&quot;: {
+                    &quot;name&quot;: &quot;sandwich&quot;,
+                    &quot;type&quot;: &quot;afterwork&quot;,
+                    &quot;unit_price&quot;: &quot;-2&quot;
+                }
+            },
+            {
+                &quot;date&quot;: &quot;2026-07-13 04:31:22&quot;,
+                &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
+                &quot;actual_balance&quot;: 77.3,
+                &quot;total_price&quot;: &quot;-1.20&quot;,
                 &quot;amount&quot;: 1,
                 &quot;product&quot;: {
-                    &quot;name&quot;: &quot;fromage&quot;,
-                    &quot;type&quot;: &quot;repas&quot;,
-                    &quot;unit_price&quot;: &quot;-3&quot;
+                    &quot;name&quot;: &quot;cocktail12&quot;,
+                    &quot;type&quot;: &quot;soiree&quot;,
+                    &quot;unit_price&quot;: &quot;-1.2&quot;
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-13 04:09:07&quot;,
+                &quot;date&quot;: &quot;2026-07-13 04:12:02&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 127.7,
-                &quot;total_price&quot;: &quot;-8.00&quot;,
-                &quot;amount&quot;: 5,
+                &quot;actual_balance&quot;: 82.1,
+                &quot;total_price&quot;: &quot;-4.80&quot;,
+                &quot;amount&quot;: 3,
                 &quot;product&quot;: {
                     &quot;name&quot;: &quot;cocktail16&quot;,
                     &quot;type&quot;: &quot;soiree&quot;,
@@ -5714,41 +5734,33 @@ fetch(url, {
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-13 03:42:17&quot;,
+                &quot;date&quot;: &quot;2026-07-13 02:39:58&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 132.5,
-                &quot;total_price&quot;: &quot;-4.80&quot;,
-                &quot;amount&quot;: 3,
+                &quot;actual_balance&quot;: 88.1,
+                &quot;total_price&quot;: &quot;-6.00&quot;,
+                &quot;amount&quot;: 5,
                 &quot;product&quot;: {
-                    &quot;name&quot;: &quot;bordeaux&quot;,
-                    &quot;type&quot;: &quot;oeno&quot;,
-                    &quot;unit_price&quot;: &quot;-1.6&quot;
+                    &quot;name&quot;: &quot;metre&quot;,
+                    &quot;type&quot;: &quot;shot&quot;,
+                    &quot;unit_price&quot;: &quot;-1.2&quot;
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-13 02:17:04&quot;,
+                &quot;date&quot;: &quot;2026-07-13 02:15:06&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 136.9,
-                &quot;total_price&quot;: &quot;-4.40&quot;,
-                &quot;amount&quot;: 1,
+                &quot;actual_balance&quot;: 94.1,
+                &quot;total_price&quot;: &quot;-6.00&quot;,
+                &quot;amount&quot;: 5,
                 &quot;product&quot;: {
-                    &quot;name&quot;: &quot;charcuterie&quot;,
-                    &quot;type&quot;: &quot;repas&quot;,
-                    &quot;unit_price&quot;: &quot;-4.4&quot;
+                    &quot;name&quot;: &quot;cocktail12&quot;,
+                    &quot;type&quot;: &quot;soiree&quot;,
+                    &quot;unit_price&quot;: &quot;-1.2&quot;
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-13 01:32:33&quot;,
+                &quot;date&quot;: &quot;2026-07-13 01:35:17&quot;,
                 &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 86.9,
-                &quot;total_price&quot;: &quot;50.00&quot;,
-                &quot;amount&quot;: 1,
-                &quot;product&quot;: null
-            },
-            {
-                &quot;date&quot;: &quot;2026-07-13 01:02:10&quot;,
-                &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
-                &quot;actual_balance&quot;: 89.30000000000001,
+                &quot;actual_balance&quot;: 96.5,
                 &quot;total_price&quot;: &quot;-2.40&quot;,
                 &quot;amount&quot;: 2,
                 &quot;product&quot;: {
@@ -5758,20 +5770,16 @@ fetch(url, {
                 }
             },
             {
-                &quot;date&quot;: &quot;2026-07-12 23:09:02&quot;,
-                &quot;date_format&quot;: &quot;Hier&quot;,
-                &quot;actual_balance&quot;: 69.30000000000001,
-                &quot;total_price&quot;: &quot;20.00&quot;,
-                &quot;amount&quot;: 1,
-                &quot;product&quot;: null
-            },
-            {
-                &quot;date&quot;: &quot;2026-07-12 22:38:59&quot;,
-                &quot;date_format&quot;: &quot;Hier&quot;,
-                &quot;actual_balance&quot;: 64.30000000000001,
-                &quot;total_price&quot;: &quot;5.00&quot;,
-                &quot;amount&quot;: 1,
-                &quot;product&quot;: null
+                &quot;date&quot;: &quot;2026-07-13 01:05:06&quot;,
+                &quot;date_format&quot;: &quot;Aujourd&#039;hui&quot;,
+                &quot;actual_balance&quot;: 105.5,
+                &quot;total_price&quot;: &quot;-9.00&quot;,
+                &quot;amount&quot;: 3,
+                &quot;product&quot;: {
+                    &quot;name&quot;: &quot;fromage&quot;,
+                    &quot;type&quot;: &quot;repas&quot;,
+                    &quot;unit_price&quot;: &quot;-3&quot;
+                }
             }
         ]
     },
@@ -5780,11 +5788,11 @@ fetch(url, {
         &quot;per_page&quot;: 10,
         &quot;current_page&quot;: 1,
         &quot;last_page&quot;: 20,
-        &quot;first_page_url&quot;: &quot;http://localhost:8000/api/fouaille?page=1&amp;per_page=10&quot;,
-        &quot;last_page_url&quot;: &quot;http://localhost:8000/api/fouaille?page=20&amp;per_page=10&quot;,
-        &quot;next_page_url&quot;: &quot;http://localhost:8000/api/fouaille?page=2&amp;per_page=10&quot;,
+        &quot;first_page_url&quot;: &quot;http://localhost/api/fouaille?page=1&amp;per_page=10&quot;,
+        &quot;last_page_url&quot;: &quot;http://localhost/api/fouaille?page=20&amp;per_page=10&quot;,
+        &quot;next_page_url&quot;: &quot;http://localhost/api/fouaille?page=2&amp;per_page=10&quot;,
         &quot;prev_page_url&quot;: &quot;&amp;per_page=10&quot;,
-        &quot;path&quot;: &quot;http://localhost:8000/api/fouaille&quot;,
+        &quot;path&quot;: &quot;http://localhost/api/fouaille&quot;,
         &quot;from&quot;: 1,
         &quot;to&quot;: 10
     }
@@ -5808,7 +5816,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/fouaille/balance"
+            <div title="http://localhost/api/fouaille/balance"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -5818,7 +5826,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/fouaille/balance</div>
                     </div>
 
@@ -5928,7 +5936,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/fouaille/balance" \
+    --get "http://localhost/api/fouaille/balance" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -5939,7 +5947,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/fouaille/balance"
+    "http://localhost/api/fouaille/balance"
 );
 
 const headers = {
@@ -6054,7 +6062,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/organization"
+            <div title="http://localhost/api/organization"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -6064,7 +6072,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/organization</div>
                     </div>
 
@@ -6202,7 +6210,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/organization?search=ci" \
+    --get "http://localhost/api/organization?search=ci" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -6213,7 +6221,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/organization"
+    "http://localhost/api/organization"
 );
 
 const params = {
@@ -6301,16 +6309,15 @@ fetch(url, {
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: {
-        &quot;associations&quot;: [],
-        &quot;clubs&quot;: [
+        &quot;associations&quot;: [
             {
-                &quot;id&quot;: 17,
-                &quot;short_name&quot;: &quot;eum&quot;,
-                &quot;user_name&quot;: &quot;krajcik.llewellyn&quot;,
-                &quot;name&quot;: &quot;Shayne&quot;,
+                &quot;id&quot;: 2,
+                &quot;short_name&quot;: &quot;exercitationem&quot;,
+                &quot;name&quot;: &quot;Nicklaus&quot;,
                 &quot;logo_url&quot;: null
             }
-        ]
+        ],
+        &quot;clubs&quot;: []
     }
 }</code></pre>
                                                                             </div>
@@ -6332,7 +6339,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/organization/{id}"
+            <div title="http://localhost/api/organization/{id}"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -6342,7 +6349,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/organization/{id}</div>
                     </div>
 
@@ -6482,7 +6489,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/organization/2" \
+    --get "http://localhost/api/organization/2" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -6493,7 +6500,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/organization/2"
+    "http://localhost/api/organization/2"
 );
 
 const headers = {
@@ -6576,24 +6583,31 @@ fetch(url, {
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;organization&quot;: {
         &quot;id&quot;: 2,
-        &quot;short_name&quot;: &quot;iusto&quot;,
-        &quot;name&quot;: &quot;Prince&quot;,
-        &quot;user_name&quot;: &quot;roxanne35&quot;,
-        &quot;description&quot;: &quot;Deleniti itaque nam et ratione voluptates voluptatem repellat. Repellendus vel enim est aut nam quae quia. Et tempore vitae et dolorum.&quot;,
-        &quot;website_link&quot;: &quot;http://www.volkman.com/architecto-asperiores-assumenda-voluptatem-ratione&quot;,
-        &quot;facebook_link&quot;: &quot;http://zieme.com/&quot;,
-        &quot;twitter_link&quot;: &quot;http://mills.org/veniam-qui-ut-ea-tenetur.html&quot;,
-        &quot;instagram_link&quot;: &quot;http://eichmann.org/impedit-possimus-dolor-voluptatum-libero-numquam-et.html&quot;,
-        &quot;discord_link&quot;: &quot;https://okon.biz/velit-eos-delectus-suscipit-non-numquam-mollitia.html&quot;,
-        &quot;email&quot;: &quot;madelynn07@example.org&quot;,
+        &quot;short_name&quot;: &quot;exercitationem&quot;,
+        &quot;name&quot;: &quot;Nicklaus&quot;,
+        &quot;user_name&quot;: &quot;jast.nils&quot;,
+        &quot;description&quot;: &quot;Asperiores dolorem cumque quia cupiditate. Labore ut quo et deserunt. In sed est omnis non occaecati.&quot;,
+        &quot;website_link&quot;: &quot;http://crooks.net/est-quis-et-tempora-et.html&quot;,
+        &quot;facebook_link&quot;: &quot;http://www.gorczany.com/&quot;,
+        &quot;twitter_link&quot;: &quot;http://nolan.com/saepe-est-voluptatem-est-autem-non&quot;,
+        &quot;instagram_link&quot;: &quot;http://www.schmidt.net/molestias-quis-culpa-non-sed&quot;,
+        &quot;discord_link&quot;: &quot;http://www.lowe.info/&quot;,
+        &quot;email&quot;: &quot;pkrajcik@example.net&quot;,
         &quot;logo_url&quot;: null
     },
     &quot;members&quot;: [
         {
-            &quot;id&quot;: 23,
-            &quot;role&quot;: &quot;president&quot;,
-            &quot;first_name&quot;: &quot;Aubrey&quot;,
-            &quot;last_name&quot;: &quot;Stamm&quot;,
+            &quot;id&quot;: 54,
+            &quot;role&quot;: &quot;reseaux&quot;,
+            &quot;first_name&quot;: &quot;Marshall&quot;,
+            &quot;last_name&quot;: &quot;Kovacek&quot;,
+            &quot;avatar_url&quot;: null
+        },
+        {
+            &quot;id&quot;: 61,
+            &quot;role&quot;: &quot;tr&eacute;sorier&quot;,
+            &quot;first_name&quot;: &quot;Orion&quot;,
+            &quot;last_name&quot;: &quot;Friesen&quot;,
             &quot;avatar_url&quot;: null
         }
     ]
@@ -6631,7 +6645,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/sector"
+            <div title="http://localhost/api/sector"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -6641,7 +6655,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/sector</div>
                     </div>
 
@@ -6729,7 +6743,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/sector" \
+    --get "http://localhost/api/sector" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -6739,7 +6753,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/sector"
+    "http://localhost/api/sector"
 );
 
 const headers = {
@@ -6877,7 +6891,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/cts"
+            <div title="http://localhost/api/cts"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -6887,7 +6901,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/cts</div>
                     </div>
 
@@ -6997,7 +7011,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/cts" \
+    --get "http://localhost/api/cts" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -7008,7 +7022,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/cts"
+    "http://localhost/api/cts"
 );
 
 const headers = {
@@ -7116,7 +7130,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/mps"
+            <div title="http://localhost/api/mps"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -7126,7 +7140,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/mps</div>
                     </div>
 
@@ -7236,7 +7250,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/mps" \
+    --get "http://localhost/api/mps" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -7247,7 +7261,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/mps"
+    "http://localhost/api/mps"
 );
 
 const headers = {
@@ -7355,7 +7369,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/cgu"
+            <div title="http://localhost/api/cgu"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -7365,7 +7379,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/cgu</div>
                     </div>
 
@@ -7453,7 +7467,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/cgu" \
+    --get "http://localhost/api/cgu" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
                                     </div>
@@ -7463,7 +7477,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/cgu"
+    "http://localhost/api/cgu"
 );
 
 const headers = {
@@ -7590,7 +7604,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post"
+            <div title="http://localhost/api/post"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -7600,7 +7614,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post</div>
                     </div>
 
@@ -7838,7 +7852,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/post?per_page=10&amp;category_id[]=2&amp;page=1" \
+    --get "http://localhost/api/post?per_page=10&amp;category_id[]=2&amp;page=1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -7849,7 +7863,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post"
+    "http://localhost/api/post"
 );
 
 const params = {
@@ -7940,247 +7954,45 @@ fetch(url, {
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: [
         {
-            &quot;id&quot;: 7,
-            &quot;event_id&quot;: null,
+            &quot;id&quot;: 55,
+            &quot;event_id&quot;: 6,
             &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 2 jours&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-10 22:27:03&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 1 jour&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-07-12 09:49:08&quot;,
             &quot;color&quot;: &quot;#0865D2&quot;,
             &quot;categories&quot;: [
                 {
                     &quot;name&quot;: &quot;Admis 2023&quot;
                 }
             ],
-            &quot;created_at&quot;: &quot;2026-07-10 22:27:03&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 1,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 1,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: false,
-                &quot;id&quot;: 67,
-                &quot;name&quot;: &quot;Isadore Gutkowski&quot;,
-                &quot;user_name&quot;: &quot;davin.muller&quot;,
-                &quot;short_name&quot;: null,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 100,
-            &quot;event_id&quot;: null,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 4 jours&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-09 07:54:53&quot;,
-            &quot;color&quot;: &quot;#0865D2&quot;,
-            &quot;categories&quot;: [
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                },
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                }
-            ],
-            &quot;created_at&quot;: &quot;2026-07-09 07:54:53&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 1,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 3,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: true,
-                &quot;id&quot;: 16,
-                &quot;name&quot;: &quot;Joan&quot;,
-                &quot;user_name&quot;: &quot;block.trevion&quot;,
-                &quot;short_name&quot;: &quot;autem&quot;,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 41,
-            &quot;event_id&quot;: 25,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 4 jours&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-08 13:40:44&quot;,
-            &quot;color&quot;: &quot;#0865D2&quot;,
-            &quot;categories&quot;: [
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                },
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                }
-            ],
-            &quot;created_at&quot;: &quot;2026-07-08 13:40:44&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 1,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 3,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: true,
-                &quot;id&quot;: 17,
-                &quot;name&quot;: &quot;Shayne&quot;,
-                &quot;user_name&quot;: &quot;krajcik.llewellyn&quot;,
-                &quot;short_name&quot;: &quot;eum&quot;,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 66,
-            &quot;event_id&quot;: 11,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 6 jours&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-07 07:51:45&quot;,
-            &quot;color&quot;: &quot;#D20808&quot;,
-            &quot;categories&quot;: [
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                },
-                {
-                    &quot;name&quot;: &quot;Fouailles&quot;
-                }
-            ],
-            &quot;created_at&quot;: &quot;2026-07-07 07:51:45&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
+            &quot;created_at&quot;: &quot;2026-07-12 09:49:08&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
             &quot;reaction_count&quot;: 0,
             &quot;reaction&quot;: null,
             &quot;comment_count&quot;: 4,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: true,
-                &quot;id&quot;: 16,
-                &quot;name&quot;: &quot;Joan&quot;,
-                &quot;user_name&quot;: &quot;block.trevion&quot;,
-                &quot;short_name&quot;: &quot;autem&quot;,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 67,
-            &quot;event_id&quot;: 30,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 6 jours&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-06 23:21:41&quot;,
-            &quot;color&quot;: &quot;#0865D2&quot;,
-            &quot;categories&quot;: [
+            &quot;medias&quot;: [
                 {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
+                    &quot;id&quot;: 1,
+                    &quot;url&quot;: &quot;https://via.placeholder.com/640x480.png/00dd22?text=quia&quot;,
+                    &quot;type&quot;: &quot;image&quot;
                 }
             ],
-            &quot;created_at&quot;: &quot;2026-07-06 23:21:41&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 2,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 3,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: true,
-                &quot;id&quot;: 18,
-                &quot;name&quot;: &quot;Christy&quot;,
-                &quot;user_name&quot;: &quot;kenny12&quot;,
-                &quot;short_name&quot;: &quot;molestiae&quot;,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 88,
-            &quot;event_id&quot;: 10,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 1 semaine&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-06 08:56:55&quot;,
-            &quot;color&quot;: &quot;#0865D2&quot;,
-            &quot;categories&quot;: [
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                }
-            ],
-            &quot;created_at&quot;: &quot;2026-07-06 08:56:55&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 0,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 2,
-            &quot;medias&quot;: [],
             &quot;author&quot;: {
                 &quot;user_is_author&quot;: false,
                 &quot;is_organization&quot;: false,
-                &quot;id&quot;: 28,
-                &quot;name&quot;: &quot;Maximilian Pfeffer&quot;,
-                &quot;user_name&quot;: &quot;danial.fahey&quot;,
-                &quot;short_name&quot;: null,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 86,
-            &quot;event_id&quot;: null,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 1 semaine&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-04 15:51:01&quot;,
-            &quot;color&quot;: &quot;#0865D2&quot;,
-            &quot;categories&quot;: [
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                }
-            ],
-            &quot;created_at&quot;: &quot;2026-07-04 15:51:01&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 0,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 4,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: true,
-                &quot;id&quot;: 6,
-                &quot;name&quot;: &quot;Bernardo&quot;,
-                &quot;user_name&quot;: &quot;thelma14&quot;,
-                &quot;short_name&quot;: &quot;hic&quot;,
-                &quot;logo_url&quot;: null
-            }
-        },
-        {
-            &quot;id&quot;: 91,
-            &quot;event_id&quot;: null,
-            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-            &quot;uploaded_since&quot;: &quot;il y a 1 semaine&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-07-01 03:27:54&quot;,
-            &quot;color&quot;: &quot;#D20808&quot;,
-            &quot;categories&quot;: [
-                {
-                    &quot;name&quot;: &quot;Fouailles&quot;
-                },
-                {
-                    &quot;name&quot;: &quot;Admis 2023&quot;
-                }
-            ],
-            &quot;created_at&quot;: &quot;2026-07-01 03:27:54&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-            &quot;reaction_count&quot;: 1,
-            &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 1,
-            &quot;medias&quot;: [],
-            &quot;author&quot;: {
-                &quot;user_is_author&quot;: false,
-                &quot;is_organization&quot;: false,
-                &quot;id&quot;: 56,
-                &quot;name&quot;: &quot;Erwin Price&quot;,
-                &quot;user_name&quot;: &quot;alyce32&quot;,
+                &quot;id&quot;: 35,
+                &quot;name&quot;: &quot;Griffin Jaskolski&quot;,
+                &quot;user_name&quot;: &quot;schiller.willard&quot;,
                 &quot;short_name&quot;: null,
                 &quot;logo_url&quot;: null
             }
         },
         {
             &quot;id&quot;: 76,
-            &quot;event_id&quot;: null,
+            &quot;event_id&quot;: 8,
             &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
             &quot;uploaded_since&quot;: &quot;il y a 1 semaine&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-06-30 16:33:01&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-07-03 15:29:21&quot;,
             &quot;color&quot;: &quot;#08D2C9&quot;,
             &quot;categories&quot;: [
                 {
@@ -8188,13 +8000,97 @@ fetch(url, {
                 },
                 {
                     &quot;name&quot;: &quot;Poly&quot;
-                },
-                {
-                    &quot;name&quot;: &quot;Neurchi&quot;
                 }
             ],
-            &quot;created_at&quot;: &quot;2026-06-30 16:33:01&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
+            &quot;created_at&quot;: &quot;2026-07-03 15:29:21&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 0,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 3,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: true,
+                &quot;id&quot;: 12,
+                &quot;name&quot;: &quot;Mittie&quot;,
+                &quot;user_name&quot;: &quot;jacobson.ayla&quot;,
+                &quot;short_name&quot;: &quot;labore&quot;,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 96,
+            &quot;event_id&quot;: 10,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 1 semaine&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-07-02 18:40:27&quot;,
+            &quot;color&quot;: &quot;#0865D2&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-07-02 18:40:27&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 0,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 3,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: true,
+                &quot;id&quot;: 14,
+                &quot;name&quot;: &quot;Nels&quot;,
+                &quot;user_name&quot;: &quot;greenholt.aidan&quot;,
+                &quot;short_name&quot;: &quot;possimus&quot;,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 41,
+            &quot;event_id&quot;: 9,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 1 semaine&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-30 13:48:40&quot;,
+            &quot;color&quot;: &quot;#D2BE08&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;Clubs et Assos&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-06-30 13:48:40&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 1,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 1,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: true,
+                &quot;id&quot;: 17,
+                &quot;name&quot;: &quot;Tierra&quot;,
+                &quot;user_name&quot;: &quot;bartoletti.fritz&quot;,
+                &quot;short_name&quot;: &quot;quibusdam&quot;,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 4,
+            &quot;event_id&quot;: null,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 2 semaines&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-29 00:39:02&quot;,
+            &quot;color&quot;: &quot;#0865D2&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-06-29 00:39:02&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
             &quot;reaction_count&quot;: 0,
             &quot;reaction&quot;: null,
             &quot;comment_count&quot;: 2,
@@ -8202,38 +8098,159 @@ fetch(url, {
             &quot;author&quot;: {
                 &quot;user_is_author&quot;: false,
                 &quot;is_organization&quot;: false,
-                &quot;id&quot;: 75,
-                &quot;name&quot;: &quot;Evelyn McLaughlin&quot;,
-                &quot;user_name&quot;: &quot;gusikowski.dedrick&quot;,
+                &quot;id&quot;: 74,
+                &quot;name&quot;: &quot;Dino Konopelski&quot;,
+                &quot;user_name&quot;: &quot;joaquin04&quot;,
                 &quot;short_name&quot;: null,
                 &quot;logo_url&quot;: null
             }
         },
         {
-            &quot;id&quot;: 97,
+            &quot;id&quot;: 73,
+            &quot;event_id&quot;: 14,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 2 semaines&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-28 07:34:49&quot;,
+            &quot;color&quot;: &quot;#0865D2&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;Boite Tactique&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-06-28 07:34:49&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 0,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 1,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: false,
+                &quot;id&quot;: 85,
+                &quot;name&quot;: &quot;Orland Towne&quot;,
+                &quot;user_name&quot;: &quot;roberbrunner&quot;,
+                &quot;short_name&quot;: null,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 2,
             &quot;event_id&quot;: null,
             &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
             &quot;uploaded_since&quot;: &quot;il y a 2 semaines&quot;,
-            &quot;uploaded_at&quot;: &quot;2026-06-28 00:10:18&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-27 22:51:16&quot;,
             &quot;color&quot;: &quot;#0865D2&quot;,
             &quot;categories&quot;: [
                 {
                     &quot;name&quot;: &quot;Admis 2023&quot;
                 }
             ],
-            &quot;created_at&quot;: &quot;2026-06-28 00:10:18&quot;,
-            &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
+            &quot;created_at&quot;: &quot;2026-06-27 22:51:16&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
             &quot;reaction_count&quot;: 1,
             &quot;reaction&quot;: null,
-            &quot;comment_count&quot;: 5,
+            &quot;comment_count&quot;: 2,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: false,
+                &quot;id&quot;: 53,
+                &quot;name&quot;: &quot;Adella Cremin&quot;,
+                &quot;user_name&quot;: &quot;cleora35&quot;,
+                &quot;short_name&quot;: null,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 13,
+            &quot;event_id&quot;: null,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 2 semaines&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-26 15:08:27&quot;,
+            &quot;color&quot;: &quot;#0865D2&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-06-26 15:08:27&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 0,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 2,
             &quot;medias&quot;: [],
             &quot;author&quot;: {
                 &quot;user_is_author&quot;: false,
                 &quot;is_organization&quot;: true,
+                &quot;id&quot;: 4,
+                &quot;name&quot;: &quot;Stephania&quot;,
+                &quot;user_name&quot;: &quot;joanny.kihn&quot;,
+                &quot;short_name&quot;: &quot;impedit&quot;,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 59,
+            &quot;event_id&quot;: 7,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 2 semaines&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-25 01:28:44&quot;,
+            &quot;color&quot;: &quot;#0865D2&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-06-25 01:28:44&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 0,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 4,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: false,
                 &quot;id&quot;: 7,
-                &quot;name&quot;: &quot;Taylor&quot;,
-                &quot;user_name&quot;: &quot;ondricka.columbus&quot;,
-                &quot;short_name&quot;: &quot;ad&quot;,
+                &quot;name&quot;: &quot;Norris Watsica&quot;,
+                &quot;user_name&quot;: &quot;hollie47&quot;,
+                &quot;short_name&quot;: null,
+                &quot;logo_url&quot;: null
+            }
+        },
+        {
+            &quot;id&quot;: 62,
+            &quot;event_id&quot;: 26,
+            &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
+            &quot;uploaded_since&quot;: &quot;il y a 2 semaines&quot;,
+            &quot;uploaded_at&quot;: &quot;2026-06-24 12:22:57&quot;,
+            &quot;color&quot;: &quot;#08D241&quot;,
+            &quot;categories&quot;: [
+                {
+                    &quot;name&quot;: &quot;Objets Perdus&quot;
+                },
+                {
+                    &quot;name&quot;: &quot;Admis 2023&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2026-06-24 12:22:57&quot;,
+            &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+            &quot;reaction_count&quot;: 0,
+            &quot;reaction&quot;: null,
+            &quot;comment_count&quot;: 3,
+            &quot;medias&quot;: [],
+            &quot;author&quot;: {
+                &quot;user_is_author&quot;: false,
+                &quot;is_organization&quot;: false,
+                &quot;id&quot;: 37,
+                &quot;name&quot;: &quot;Cydney Lemke&quot;,
+                &quot;user_name&quot;: &quot;aokon&quot;,
+                &quot;short_name&quot;: null,
                 &quot;logo_url&quot;: null
             }
         }
@@ -8243,11 +8260,11 @@ fetch(url, {
         &quot;per_page&quot;: 10,
         &quot;current_page&quot;: 1,
         &quot;last_page&quot;: 2,
-        &quot;first_page_url&quot;: &quot;http://localhost:8000/api/post?page=1&amp;per_page=10&quot;,
-        &quot;last_page_url&quot;: &quot;http://localhost:8000/api/post?page=2&amp;per_page=10&quot;,
-        &quot;next_page_url&quot;: &quot;http://localhost:8000/api/post?page=2&amp;per_page=10&quot;,
+        &quot;first_page_url&quot;: &quot;http://localhost/api/post?page=1&amp;per_page=10&quot;,
+        &quot;last_page_url&quot;: &quot;http://localhost/api/post?page=2&amp;per_page=10&quot;,
+        &quot;next_page_url&quot;: &quot;http://localhost/api/post?page=2&amp;per_page=10&quot;,
         &quot;prev_page_url&quot;: &quot;&amp;per_page=10&quot;,
-        &quot;path&quot;: &quot;http://localhost:8000/api/post&quot;,
+        &quot;path&quot;: &quot;http://localhost/api/post&quot;,
         &quot;from&quot;: 1,
         &quot;to&quot;: 10
     }
@@ -8271,7 +8288,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}"
+            <div title="http://localhost/api/post/{id}"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -8281,7 +8298,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}</div>
                     </div>
 
@@ -8421,7 +8438,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/post/1" \
+    --get "http://localhost/api/post/1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -8432,7 +8449,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1"
+    "http://localhost/api/post/1"
 );
 
 const headers = {
@@ -8515,29 +8532,29 @@ fetch(url, {
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;data&quot;: {
         &quot;id&quot;: 1,
-        &quot;event_id&quot;: null,
+        &quot;event_id&quot;: 6,
         &quot;body&quot;: &quot;{\&quot;type\&quot;:\&quot;doc\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;paragraph\&quot;,\&quot;content\&quot;:[{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;bold\&quot;}],\&quot;text\&quot;:\&quot;Ceci\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; est un test de la \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;underline\&quot;}],\&quot;text\&quot;:\&quot;mise en forme\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot; des \&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;marks\&quot;:[{\&quot;type\&quot;:\&quot;italic\&quot;}],\&quot;text\&quot;:\&quot;posts\&quot;},{\&quot;type\&quot;:\&quot;text\&quot;,\&quot;text\&quot;:\&quot;.\&quot;}]}]}&quot;,
-        &quot;uploaded_since&quot;: &quot;il y a 3 semaines&quot;,
-        &quot;uploaded_at&quot;: &quot;2026-06-19 19:10:11&quot;,
-        &quot;color&quot;: &quot;#046b70&quot;,
+        &quot;uploaded_since&quot;: &quot;il y a 6 jours&quot;,
+        &quot;uploaded_at&quot;: &quot;2026-07-07 05:15:56&quot;,
+        &quot;color&quot;: &quot;#08D241&quot;,
         &quot;categories&quot;: [
             {
-                &quot;name&quot;: &quot;Activit&eacute;s&quot;
+                &quot;name&quot;: &quot;Objets Perdus&quot;
             }
         ],
-        &quot;created_at&quot;: &quot;2026-06-19 19:10:11&quot;,
-        &quot;updated_at&quot;: &quot;2026-07-13 11:33:28&quot;,
-        &quot;reaction_count&quot;: 0,
+        &quot;created_at&quot;: &quot;2026-07-07 05:15:56&quot;,
+        &quot;updated_at&quot;: &quot;2026-07-13 11:49:56&quot;,
+        &quot;reaction_count&quot;: 1,
         &quot;reaction&quot;: null,
         &quot;comment_count&quot;: 5,
         &quot;medias&quot;: [],
         &quot;author&quot;: {
             &quot;user_is_author&quot;: false,
             &quot;is_organization&quot;: false,
-            &quot;id&quot;: 59,
-            &quot;name&quot;: &quot;Cornelius Prohaska&quot;,
+            &quot;id&quot;: 77,
+            &quot;name&quot;: &quot;Sally Stoltenberg&quot;,
             &quot;short_name&quot;: null,
-            &quot;user_name&quot;: &quot;shanahan.lennie&quot;,
+            &quot;user_name&quot;: &quot;aurelio82&quot;,
             &quot;logo_url&quot;: null
         }
     }
@@ -8561,7 +8578,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}"
+            <div title="http://localhost/api/post/{id}"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -8571,7 +8588,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}</div>
                     </div>
 
@@ -8711,7 +8728,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/post/1" \
+    "http://localhost/api/post/1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -8722,7 +8739,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1"
+    "http://localhost/api/post/1"
 );
 
 const headers = {
@@ -8824,7 +8841,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/update"
+            <div title="http://localhost/api/post/{id}/update"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -8834,7 +8851,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/update</div>
                     </div>
 
@@ -9028,7 +9045,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/post/1/update" \
+    "http://localhost/api/post/1/update" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
@@ -9046,7 +9063,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/update"
+    "http://localhost/api/post/1/update"
 );
 
 const headers = {
@@ -9162,7 +9179,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/comment"
+            <div title="http://localhost/api/post/{id}/comment"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -9172,7 +9189,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/comment</div>
                     </div>
 
@@ -9376,7 +9393,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/post/1/comment?per_page=3&amp;page=2" \
+    --get "http://localhost/api/post/1/comment?per_page=3&amp;page=2" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -9387,7 +9404,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/comment"
+    "http://localhost/api/post/1/comment"
 );
 
 const params = {
@@ -9482,11 +9499,11 @@ fetch(url, {
         &quot;per_page&quot;: 3,
         &quot;current_page&quot;: 2,
         &quot;last_page&quot;: 1,
-        &quot;first_page_url&quot;: &quot;http://localhost:8000/api/post/1/comment?page=1&amp;per_page=3&quot;,
-        &quot;last_page_url&quot;: &quot;http://localhost:8000/api/post/1/comment?page=1&amp;per_page=3&quot;,
+        &quot;first_page_url&quot;: &quot;http://localhost/api/post/1/comment?page=1&amp;per_page=3&quot;,
+        &quot;last_page_url&quot;: &quot;http://localhost/api/post/1/comment?page=1&amp;per_page=3&quot;,
         &quot;next_page_url&quot;: &quot;&amp;per_page=3&quot;,
-        &quot;prev_page_url&quot;: &quot;http://localhost:8000/api/post/1/comment?page=1&amp;per_page=3&quot;,
-        &quot;path&quot;: &quot;http://localhost:8000/api/post/1/comment&quot;,
+        &quot;prev_page_url&quot;: &quot;http://localhost/api/post/1/comment?page=1&amp;per_page=3&quot;,
+        &quot;path&quot;: &quot;http://localhost/api/post/1/comment&quot;,
         &quot;from&quot;: null,
         &quot;to&quot;: null,
         &quot;in_page&quot;: 0
@@ -9511,7 +9528,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/comment"
+            <div title="http://localhost/api/post/{id}/comment"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -9521,7 +9538,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/comment</div>
                     </div>
 
@@ -9752,7 +9769,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/post/1/comment" \
+    "http://localhost/api/post/1/comment" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
@@ -9768,7 +9785,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/comment"
+    "http://localhost/api/post/1/comment"
 );
 
 const headers = {
@@ -9862,8 +9879,8 @@ fetch(url, {
         &quot;organization_id&quot;: null,
         &quot;parent_comment_id&quot;: null,
         &quot;body&quot;: &quot;This is a comment&quot;,
-        &quot;updated_at&quot;: &quot;2026-07-13T09:33:33.000000Z&quot;,
-        &quot;created_at&quot;: &quot;2026-07-13T09:33:33.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-07-13T09:50:00.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2026-07-13T09:50:00.000000Z&quot;,
         &quot;id&quot;: 205
     }
 }</code></pre>
@@ -9892,7 +9909,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/reaction"
+            <div title="http://localhost/api/post/{id}/reaction"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -9902,7 +9919,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/reaction</div>
                     </div>
 
@@ -10086,7 +10103,7 @@ Can lead to either a creation, a modification or a deletion of a reaction.</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/post/1/reaction" \
+    "http://localhost/api/post/1/reaction" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
@@ -10101,7 +10118,7 @@ Can lead to either a creation, a modification or a deletion of a reaction.</p>
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/reaction"
+    "http://localhost/api/post/1/reaction"
 );
 
 const headers = {
@@ -10200,7 +10217,7 @@ fetch(url, {
             &quot;id&quot;: 2,
             &quot;icon&quot;: &quot;👍&quot;
         },
-        &quot;reaction_count&quot;: 1
+        &quot;reaction_count&quot;: 2
     }
 }</code></pre>
                                                                             </div>
@@ -10222,7 +10239,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/reaction"
+            <div title="http://localhost/api/post/{id}/reaction"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -10232,7 +10249,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/reaction</div>
                     </div>
 
@@ -10372,7 +10389,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/post/1/reaction" \
+    --get "http://localhost/api/post/1/reaction" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -10383,7 +10400,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/reaction"
+    "http://localhost/api/post/1/reaction"
 );
 
 const headers = {
@@ -10411,7 +10428,7 @@ fetch(url, {
                                                         class="example-response-GETapi-post--id--reaction-toggle sl-text-base"
                                                         aria-label="Response sample"
                                                         onchange="switchExampleResponse('GETapi-post--id--reaction', event.target.value);">
-                                                                                                            <option value="0">200</option>
+                                                                                                            <option value="0">500</option>
                                                                                                     </select></div>
                                         </div>
                                     </div>
@@ -10464,7 +10481,7 @@ fetch(url, {
                                                                                                                                                                         
                                             <pre><code style="max-height: 300px;"
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
-    &quot;data&quot;: []
+    &quot;message&quot;: &quot;Server Error&quot;
 }</code></pre>
                                                                             </div>
                                 </div>
@@ -10485,7 +10502,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/reactiontype"
+            <div title="http://localhost/api/post/{id}/reactiontype"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -10495,7 +10512,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/reactiontype</div>
                     </div>
 
@@ -10635,7 +10652,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/post/1/reactiontype" \
+    --get "http://localhost/api/post/1/reactiontype" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -10646,7 +10663,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/reactiontype"
+    "http://localhost/api/post/1/reactiontype"
 );
 
 const headers = {
@@ -10785,7 +10802,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/media"
+            <div title="http://localhost/api/post/{id}/media"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -10795,7 +10812,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/media</div>
                     </div>
 
@@ -10966,11 +10983,11 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/post/1/media" \
+    "http://localhost/api/post/1/media" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "medias[]=@/tmp/php22acIp" </code></pre>                                        </div>
+    --form "medias[]=@/tmp/phpQUJulJ" </code></pre>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="sl-bg-canvas-100 example-request example-request-javascript"
@@ -10978,7 +10995,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/media"
+    "http://localhost/api/post/1/media"
 );
 
 const headers = {
@@ -11084,7 +11101,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/post/{id}/media/destroy"
+            <div title="http://localhost/api/post/{id}/media/destroy"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -11094,7 +11111,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/post/{id}/media/destroy</div>
                     </div>
 
@@ -11227,7 +11244,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        [6]
+                        [9]
                     </div>
                 </div>
             </div>
@@ -11264,7 +11281,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/post/1/media/destroy?medias_id[]=6" \
+    "http://localhost/api/post/1/media/destroy?medias_id[]=9" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -11275,11 +11292,11 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/post/1/media/destroy"
+    "http://localhost/api/post/1/media/destroy"
 );
 
 const params = {
-    "medias_id[0]": "6",
+    "medias_id[0]": "9",
 };
 Object.keys(params)
     .forEach(key =&gt; url.searchParams.append(key, params[key]));
@@ -11391,7 +11408,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user"
+            <div title="http://localhost/api/user"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -11401,7 +11418,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user</div>
                     </div>
 
@@ -11575,7 +11592,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user?per_page=10&amp;page=1" \
+    --get "http://localhost/api/user?per_page=10&amp;page=1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -11586,7 +11603,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user"
+    "http://localhost/api/user"
 );
 
 const params = {
@@ -11684,55 +11701,55 @@ fetch(url, {
             },
             {
                 &quot;id&quot;: 2,
-                &quot;user_name&quot;: &quot;ijacobson&quot;,
+                &quot;user_name&quot;: &quot;nbartell&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 3,
-                &quot;user_name&quot;: &quot;crystel21&quot;,
+                &quot;user_name&quot;: &quot;hand.rodrick&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 4,
-                &quot;user_name&quot;: &quot;clotilde95&quot;,
+                &quot;user_name&quot;: &quot;mante.meredith&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 5,
-                &quot;user_name&quot;: &quot;kuphal.miguel&quot;,
+                &quot;user_name&quot;: &quot;angeline77&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 6,
-                &quot;user_name&quot;: &quot;njaskolski&quot;,
+                &quot;user_name&quot;: &quot;wilmer.orn&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 7,
-                &quot;user_name&quot;: &quot;marcos.reichel&quot;,
+                &quot;user_name&quot;: &quot;hollie47&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 8,
-                &quot;user_name&quot;: &quot;raynor.leola&quot;,
+                &quot;user_name&quot;: &quot;ankunding.verdie&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 9,
-                &quot;user_name&quot;: &quot;shanahan.elroy&quot;,
+                &quot;user_name&quot;: &quot;becker.crystel&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             },
             {
                 &quot;id&quot;: 10,
-                &quot;user_name&quot;: &quot;nelda55&quot;,
+                &quot;user_name&quot;: &quot;jonathon91&quot;,
                 &quot;name&quot;: null,
                 &quot;logo_url&quot;: null
             }
@@ -11742,11 +11759,11 @@ fetch(url, {
             &quot;per_page&quot;: 10,
             &quot;current_page&quot;: 1,
             &quot;last_page&quot;: 11,
-            &quot;first_page_url&quot;: &quot;http://localhost:8000/api/user?page=1&amp;per_page=10&quot;,
-            &quot;last_page_url&quot;: &quot;http://localhost:8000/api/user?page=11&amp;per_page=10&quot;,
-            &quot;next_page_url&quot;: &quot;http://localhost:8000/api/user?page=2&amp;per_page=10&quot;,
+            &quot;first_page_url&quot;: &quot;http://localhost/api/user?page=1&amp;per_page=10&quot;,
+            &quot;last_page_url&quot;: &quot;http://localhost/api/user?page=11&amp;per_page=10&quot;,
+            &quot;next_page_url&quot;: &quot;http://localhost/api/user?page=2&amp;per_page=10&quot;,
             &quot;prev_page_url&quot;: &quot;&amp;per_page=10&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/api/user&quot;,
+            &quot;path&quot;: &quot;http://localhost/api/user&quot;,
             &quot;from&quot;: 1,
             &quot;to&quot;: 10
         }
@@ -11771,7 +11788,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user/me"
+            <div title="http://localhost/api/user/me"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -11781,7 +11798,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user/me</div>
                     </div>
 
@@ -11891,7 +11908,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user/me" \
+    --get "http://localhost/api/user/me" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -11902,7 +11919,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/me"
+    "http://localhost/api/user/me"
 );
 
 const headers = {
@@ -11994,9 +12011,9 @@ fetch(url, {
         &quot;bde_id&quot;: 1001,
         &quot;avatar_url&quot;: null,
         &quot;admission_year&quot;: &quot;2024&quot;,
-        &quot;created_at&quot;: &quot;2026-07-13 11:33:21&quot;,
-        &quot;updated_at&quot;: &quot;2026-07-13 11:33:32&quot;,
-        &quot;email_verified_at&quot;: &quot;2026-07-13T09:33:21.000000Z&quot;,
+        &quot;created_at&quot;: &quot;2026-07-13 11:49:48&quot;,
+        &quot;updated_at&quot;: &quot;2026-07-13 11:50:00&quot;,
+        &quot;email_verified_at&quot;: &quot;2026-07-13T09:49:48.000000Z&quot;,
         &quot;sector&quot;: &quot;IR&quot;,
         &quot;sector_id&quot;: 2,
         &quot;birth_date&quot;: &quot;2000-01-01&quot;
@@ -12022,7 +12039,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user/{id}"
+            <div title="http://localhost/api/user/{id}"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -12032,7 +12049,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user/{id}</div>
                     </div>
 
@@ -12172,7 +12189,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user/1" \
+    --get "http://localhost/api/user/1" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -12183,7 +12200,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/1"
+    "http://localhost/api/user/1"
 );
 
 const headers = {
@@ -12272,8 +12289,8 @@ fetch(url, {
         &quot;description&quot;: &quot;Je suis fabien et je suis le goat, ceci est ma description, je suis le directeur de TP. Il faut pas lui dire mais j&#039;ai pour objectif de ne pas donner le diplome d&#039;ing&eacute;nieur &agrave; l&#039;&eacute;l&egrave;ve Romain Bourdin&quot;,
         &quot;avatar_url&quot;: null,
         &quot;admission_year&quot;: &quot;2024&quot;,
-        &quot;created_at&quot;: &quot;2026-07-13 11:33:21&quot;,
-        &quot;updated_at&quot;: &quot;2026-07-13 11:33:21&quot;,
+        &quot;created_at&quot;: &quot;2026-07-13 11:49:48&quot;,
+        &quot;updated_at&quot;: &quot;2026-07-13 11:49:48&quot;,
         &quot;sector&quot;: &quot;IR&quot;,
         &quot;birth_date&quot;: &quot;2000-01-01&quot;
     },
@@ -12298,7 +12315,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user"
+            <div title="http://localhost/api/user"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -12308,7 +12325,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user</div>
                     </div>
 
@@ -12411,7 +12428,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        nobedgnwlixtyasp
+                        vxemwybtffucvft
                     </div>
                 </div>
             </div>
@@ -12436,7 +12453,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        p
+                        xcuk
                     </div>
                 </div>
             </div>
@@ -12461,7 +12478,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        20
+                        13
                     </div>
                 </div>
             </div>
@@ -12486,7 +12503,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        25
+                        4
                     </div>
                 </div>
             </div>
@@ -12511,7 +12528,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        In sint quasi placeat qui.
+                        Nulla exercitationem dolor quas totam consequatur repellat nihil molestias.
                     </div>
                 </div>
             </div>
@@ -12549,16 +12566,16 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request PUT \
-    "http://localhost:8000/api/user" \
+    "http://localhost/api/user" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"user_name\": \"nobedgnwlixtyasp\",
-    \"phone\": \"p\",
-    \"sector\": 20,
-    \"admission_year\": 25,
-    \"description\": \"In sint quasi placeat qui.\"
+    \"user_name\": \"vxemwybtffucvft\",
+    \"phone\": \"xcuk\",
+    \"sector\": 13,
+    \"admission_year\": 4,
+    \"description\": \"Nulla exercitationem dolor quas totam consequatur repellat nihil molestias.\"
 }"
 </code></pre>                                        </div>
                                     </div>
@@ -12568,7 +12585,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user"
+    "http://localhost/api/user"
 );
 
 const headers = {
@@ -12578,11 +12595,11 @@ const headers = {
 };
 
 let body = {
-    "user_name": "nobedgnwlixtyasp",
-    "phone": "p",
-    "sector": 20,
-    "admission_year": 25,
-    "description": "In sint quasi placeat qui."
+    "user_name": "vxemwybtffucvft",
+    "phone": "xcuk",
+    "sector": 13,
+    "admission_year": 4,
+    "description": "Nulla exercitationem dolor quas totam consequatur repellat nihil molestias."
 };
 
 fetch(url, {
@@ -12660,9 +12677,6 @@ fetch(url, {
                                                        class="language-json sl-overflow-x-auto sl-overflow-y-auto">{
     &quot;message&quot;: &quot;Validation failed&quot;,
     &quot;errors&quot;: {
-        &quot;phone&quot;: [
-            &quot;The phone field must be at least 3 characters.&quot;
-        ],
         &quot;sector&quot;: [
             &quot;The selected sector is invalid.&quot;
         ],
@@ -12690,7 +12704,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user"
+            <div title="http://localhost/api/user"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -12700,7 +12714,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user</div>
                     </div>
 
@@ -12810,7 +12824,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost:8000/api/user" \
+    "http://localhost/api/user" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -12821,7 +12835,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user"
+    "http://localhost/api/user"
 );
 
 const headers = {
@@ -12929,7 +12943,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user/default"
+            <div title="http://localhost/api/user/default"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -12939,7 +12953,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user/default</div>
                     </div>
 
@@ -13049,7 +13063,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost:8000/api/user/default" \
+    --get "http://localhost/api/user/default" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre>                                        </div>
@@ -13060,7 +13074,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/default"
+    "http://localhost/api/user/default"
 );
 
 const headers = {
@@ -13144,83 +13158,83 @@ fetch(url, {
     &quot;data&quot;: [
         {
             &quot;name&quot;: &quot;default1&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default1.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default1.png&quot;
         },
         {
             &quot;name&quot;: &quot;default2&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default2.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default2.png&quot;
         },
         {
             &quot;name&quot;: &quot;default3&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default3.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default3.png&quot;
         },
         {
             &quot;name&quot;: &quot;default4&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default4.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default4.png&quot;
         },
         {
             &quot;name&quot;: &quot;default5&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default5.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default5.png&quot;
         },
         {
             &quot;name&quot;: &quot;default6&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default6.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default6.png&quot;
         },
         {
             &quot;name&quot;: &quot;default7&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default7.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default7.png&quot;
         },
         {
             &quot;name&quot;: &quot;default8&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default8.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default8.png&quot;
         },
         {
             &quot;name&quot;: &quot;default9&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default9.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default9.png&quot;
         },
         {
             &quot;name&quot;: &quot;default10&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default10.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default10.png&quot;
         },
         {
             &quot;name&quot;: &quot;default11&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default11.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default11.png&quot;
         },
         {
             &quot;name&quot;: &quot;default12&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default12.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default12.png&quot;
         },
         {
             &quot;name&quot;: &quot;default13&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default13.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default13.png&quot;
         },
         {
             &quot;name&quot;: &quot;default14&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default14.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default14.png&quot;
         },
         {
             &quot;name&quot;: &quot;default15&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default15.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default15.png&quot;
         },
         {
             &quot;name&quot;: &quot;default16&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default16.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default16.png&quot;
         },
         {
             &quot;name&quot;: &quot;default17&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default17.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default17.png&quot;
         },
         {
             &quot;name&quot;: &quot;default18&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default18.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default18.png&quot;
         },
         {
             &quot;name&quot;: &quot;default19&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default19.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default19.png&quot;
         },
         {
             &quot;name&quot;: &quot;default20&quot;,
-            &quot;path&quot;: &quot;http://localhost:8000/storage/images/avatars/default20.png&quot;
+            &quot;path&quot;: &quot;http://localhost/storage/images/avatars/default20.png&quot;
         }
     ]
 }</code></pre>
@@ -13243,7 +13257,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user/avatar"
+            <div title="http://localhost/api/user/avatar"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -13253,7 +13267,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user/avatar</div>
                     </div>
 
@@ -13358,7 +13372,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        /tmp/phpnfdZf9
+                        /tmp/phpXfM25Q
                     </div>
                 </div>
             </div>
@@ -13396,11 +13410,11 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/user/avatar" \
+    "http://localhost/api/user/avatar" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: multipart/form-data" \
     --header "Accept: application/json" \
-    --form "avatar=@/tmp/phpnfdZf9" </code></pre>                                        </div>
+    --form "avatar=@/tmp/phpXfM25Q" </code></pre>                                        </div>
                                     </div>
                                 </div>
                                                             <div class="sl-bg-canvas-100 example-request example-request-javascript"
@@ -13408,7 +13422,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/avatar"
+    "http://localhost/api/user/avatar"
 );
 
 const headers = {
@@ -13514,7 +13528,7 @@ fetch(url, {
         </div>
 
         <div class="sl-relative">
-            <div title="http://localhost:8000/api/user/avatar/default"
+            <div title="http://localhost/api/user/avatar/default"
                      class="sl-stack sl-stack--horizontal sl-stack--3 sl-inline-flex sl-flex-row sl-items-center sl-max-w-full sl-font-mono sl-py-2 sl-pr-4 sl-bg-canvas-50 sl-rounded-lg"
                 >
                                             <div class="sl-text-lg sl-font-semibold sl-px-2.5 sl-py-1 sl-text-on-primary sl-rounded-lg"
@@ -13524,7 +13538,7 @@ fetch(url, {
                         </div>
                                         <div class="sl-flex sl-overflow-x-hidden sl-text-lg sl-select-all">
                         <div dir="rtl"
-                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost:8000</div>
+                             class="sl-overflow-x-hidden sl-truncate sl-text-muted">http://localhost</div>
                         <div class="sl-flex-1 sl-font-semibold">/api/user/avatar/default</div>
                     </div>
 
@@ -13630,7 +13644,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        sf
+                        dxcmfwsqulauwvix
                     </div>
                 </div>
             </div>
@@ -13657,7 +13671,7 @@ fetch(url, {
                 <span>Example:</span> <!-- <span> important for spacing -->
                 <div class="sl-flex sl-flex-1 sl-flex-wrap" style="gap: 4px;">
                     <div class="sl-max-w-full sl-break-all sl-px-1 sl-bg-canvas-tint sl-text-muted sl-rounded sl-border">
-                        zh
+                        chxvqspzpgwgcme
                     </div>
                 </div>
             </div>
@@ -13695,13 +13709,13 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-bash">curl --request POST \
-    "http://localhost:8000/api/user/avatar/default" \
+    "http://localhost/api/user/avatar/default" \
     --header "Authorization: Bearer {YOUR_AUTH_KEY}" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
-    \"default_link\": \"sf\",
-    \"default_name\": \"zh\"
+    \"default_link\": \"dxcmfwsqulauwvix\",
+    \"default_name\": \"chxvqspzpgwgcme\"
 }"
 </code></pre>                                        </div>
                                     </div>
@@ -13711,7 +13725,7 @@ fetch(url, {
                                     <div class="sl-px-0 sl-py-1">
                                         <div style="max-height: 400px;" class="sl-overflow-y-auto sl-rounded">
                                             <pre><code class="language-javascript">const url = new URL(
-    "http://localhost:8000/api/user/avatar/default"
+    "http://localhost/api/user/avatar/default"
 );
 
 const headers = {
@@ -13721,8 +13735,8 @@ const headers = {
 };
 
 let body = {
-    "default_link": "sf",
-    "default_name": "zh"
+    "default_link": "dxcmfwsqulauwvix",
+    "default_name": "chxvqspzpgwgcme"
 };
 
 fetch(url, {

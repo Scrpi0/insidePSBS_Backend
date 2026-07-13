@@ -5,7 +5,7 @@ info:
   version: 1.0.0
 servers:
   -
-    url: 'http://localhost:8000'
+    url: 'http://localhost'
 paths:
   /api/register:
     post:
@@ -31,11 +31,11 @@ paths:
                     phone: '0601020304'
                     admission_year: 2024
                     birth_date: '2012-12-12'
-                    updated_at: '2026-07-13T09:33:32.000000Z'
-                    created_at: '2026-07-13T09:33:32.000000Z'
+                    updated_at: '2026-07-13T09:49:59.000000Z'
+                    created_at: '2026-07-13T09:49:59.000000Z'
                     id: 102
                     expo_token: null
-                  token: 104|qYUUkDHNYA3uAEYfFxbaib94C9E3IBV1YWPCYRck2ef8855a
+                  token: 104|L3Uj5BTTk01oKSiRrm3LJIct4UXJpMIw8mLLQQpad1feed53
                 properties:
                   user:
                     type: object
@@ -69,10 +69,10 @@ paths:
                         example: '2012-12-12'
                       updated_at:
                         type: string
-                        example: '2026-07-13T09:33:32.000000Z'
+                        example: '2026-07-13T09:49:59.000000Z'
                       created_at:
                         type: string
-                        example: '2026-07-13T09:33:32.000000Z'
+                        example: '2026-07-13T09:49:59.000000Z'
                       id:
                         type: integer
                         example: 102
@@ -81,7 +81,7 @@ paths:
                         example: null
                   token:
                     type: string
-                    example: 104|qYUUkDHNYA3uAEYfFxbaib94C9E3IBV1YWPCYRck2ef8855a
+                    example: 104|L3Uj5BTTk01oKSiRrm3LJIct4UXJpMIw8mLLQQpad1feed53
       tags:
         - Authentification
       requestBody:
@@ -235,12 +235,12 @@ paths:
                 email:
                   type: string
                   description: 'Must be a valid email address.'
-                  example: nmraz@example.com
+                  example: christop.weber@example.net
                   nullable: false
                 password:
                   type: string
                   description: ''
-                  example: V-|i$133W9
+                  example: '%%C=5J<%'
                   nullable: false
               required:
                 - email
@@ -277,7 +277,7 @@ paths:
                 email:
                   type: string
                   description: 'Must be a valid email address.'
-                  example: lterry@example.net
+                  example: zoie.zieme@example.com
                   nullable: false
               required:
                 - email
@@ -424,23 +424,23 @@ paths:
           in: query
           name: organization_id
           description: ''
-          example: 18
+          example: 16
           required: false
           schema:
             type: integer
             description: ''
-            example: 18
+            example: 16
             nullable: false
         -
           in: query
           name: previous_date
           description: ''
-          example: sunt
+          example: adipisci
           required: false
           schema:
             type: string
             description: ''
-            example: sunt
+            example: adipisci
             nullable: false
         -
           in: query
@@ -484,23 +484,23 @@ paths:
                 example:
                   data:
                     id: 1
-                    title: 'Quae velit at in voluptate repellendus unde.'
+                    title: 'Quo ex dolores quasi facilis animi culpa voluptatem.'
                     date_format:
-                      start_at_simplified: '17/07 23h56'
-                      end_at_simplified: '18/07 09h44'
-                      date: vendredi
+                      start_at_simplified: '21/07 14h39'
+                      end_at_simplified: '22/07 10h01'
+                      date: 'dans 1 semaine'
                       days_diff: 0
-                    start_at: '2026-07-17 23:56:33'
-                    end_at: '2026-07-18 09:44:16'
-                    location: "568 Sanford Fall\nMoenbury, WI 09510-6663"
-                    color: '#D20808'
+                    start_at: '2026-07-21 14:39:03'
+                    end_at: '2026-07-22 10:01:46'
+                    location: "14121 Griffin Curve Suite 874\nLake Svenfurt, NH 20103-6395"
+                    color: '#0865D2'
                     author:
                       user_is_author: false
                       is_organization: true
-                      id: 19
-                      name: Elenor
-                      short_name: eligendi
-                      user_name: gerlach.hayley
+                      id: 2
+                      name: Nicklaus
+                      short_name: exercitationem
+                      user_name: jast.nils
                       logo_url: null
                 properties:
                   data:
@@ -511,34 +511,34 @@ paths:
                         example: 1
                       title:
                         type: string
-                        example: 'Quae velit at in voluptate repellendus unde.'
+                        example: 'Quo ex dolores quasi facilis animi culpa voluptatem.'
                       date_format:
                         type: object
                         properties:
                           start_at_simplified:
                             type: string
-                            example: '17/07 23h56'
+                            example: '21/07 14h39'
                           end_at_simplified:
                             type: string
-                            example: '18/07 09h44'
+                            example: '22/07 10h01'
                           date:
                             type: string
-                            example: vendredi
+                            example: 'dans 1 semaine'
                           days_diff:
                             type: integer
                             example: 0
                       start_at:
                         type: string
-                        example: '2026-07-17 23:56:33'
+                        example: '2026-07-21 14:39:03'
                       end_at:
                         type: string
-                        example: '2026-07-18 09:44:16'
+                        example: '2026-07-22 10:01:46'
                       location:
                         type: string
-                        example: "568 Sanford Fall\nMoenbury, WI 09510-6663"
+                        example: "14121 Griffin Curve Suite 874\nLake Svenfurt, NH 20103-6395"
                       color:
                         type: string
-                        example: '#D20808'
+                        example: '#0865D2'
                       author:
                         type: object
                         properties:
@@ -550,16 +550,16 @@ paths:
                             example: true
                           id:
                             type: integer
-                            example: 19
+                            example: 2
                           name:
                             type: string
-                            example: Elenor
+                            example: Nicklaus
                           short_name:
                             type: string
-                            example: eligendi
+                            example: exercitationem
                           user_name:
                             type: string
-                            example: gerlach.hayley
+                            example: jast.nils
                           logo_url:
                             type: string
                             example: null
@@ -801,7 +801,7 @@ paths:
                 uploaded_at:
                   type: string
                   description: 'Optional for Post/Event. Must be a valid date.'
-                  example: '2026-07-13T11:33:33'
+                  example: '2026-07-13T11:50:01'
                   nullable: true
                 location:
                   type: string
@@ -863,76 +863,86 @@ paths:
                   data:
                     orders:
                       -
-                        date: '2026-07-13 11:32:59'
+                        date: '2026-07-13 11:21:25'
                         date_format: "Aujourd'hui"
-                        actual_balance: 110.7
-                        total_price: '-3.20'
-                        amount: 2
+                        actual_balance: 57.5
+                        total_price: '50.00'
+                        amount: 1
+                        product: null
+                      -
+                        date: '2026-07-13 11:03:44'
+                        date_format: "Aujourd'hui"
+                        actual_balance: 59.1
+                        total_price: '-1.60'
+                        amount: 1
                         product:
                           name: bordeaux
                           type: oeno
                           unit_price: '-1.6'
                       -
-                        date: '2026-07-13 11:00:49'
+                        date: '2026-07-13 09:09:02'
                         date_format: "Aujourd'hui"
-                        actual_balance: 116.7
-                        total_price: '-6.00'
-                        amount: 2
+                        actual_balance: 68.1
+                        total_price: '-9.00'
+                        amount: 3
                         product:
                           name: fromage
                           type: repas
                           unit_price: '-3'
                       -
-                        date: '2026-07-13 05:49:39'
+                        date: '2026-07-13 08:34:43'
                         date_format: "Aujourd'hui"
-                        actual_balance: 119.7
-                        total_price: '-3.00'
+                        actual_balance: 76.1
+                        total_price: '-8.00'
+                        amount: 4
+                        product:
+                          name: sandwich
+                          type: afterwork
+                          unit_price: '-2'
+                      -
+                        date: '2026-07-13 04:31:22'
+                        date_format: "Aujourd'hui"
+                        actual_balance: 77.3
+                        total_price: '-1.20'
                         amount: 1
                         product:
-                          name: fromage
-                          type: repas
-                          unit_price: '-3'
+                          name: cocktail12
+                          type: soiree
+                          unit_price: '-1.2'
                       -
-                        date: '2026-07-13 04:09:07'
+                        date: '2026-07-13 04:12:02'
                         date_format: "Aujourd'hui"
-                        actual_balance: 127.7
-                        total_price: '-8.00'
-                        amount: 5
+                        actual_balance: 82.1
+                        total_price: '-4.80'
+                        amount: 3
                         product:
                           name: cocktail16
                           type: soiree
                           unit_price: '-1.6'
                       -
-                        date: '2026-07-13 03:42:17'
+                        date: '2026-07-13 02:39:58'
                         date_format: "Aujourd'hui"
-                        actual_balance: 132.5
-                        total_price: '-4.80'
-                        amount: 3
+                        actual_balance: 88.1
+                        total_price: '-6.00'
+                        amount: 5
                         product:
-                          name: bordeaux
-                          type: oeno
-                          unit_price: '-1.6'
+                          name: metre
+                          type: shot
+                          unit_price: '-1.2'
                       -
-                        date: '2026-07-13 02:17:04'
+                        date: '2026-07-13 02:15:06'
                         date_format: "Aujourd'hui"
-                        actual_balance: 136.9
-                        total_price: '-4.40'
-                        amount: 1
+                        actual_balance: 94.1
+                        total_price: '-6.00'
+                        amount: 5
                         product:
-                          name: charcuterie
-                          type: repas
-                          unit_price: '-4.4'
+                          name: cocktail12
+                          type: soiree
+                          unit_price: '-1.2'
                       -
-                        date: '2026-07-13 01:32:33'
+                        date: '2026-07-13 01:35:17'
                         date_format: "Aujourd'hui"
-                        actual_balance: 86.9
-                        total_price: '50.00'
-                        amount: 1
-                        product: null
-                      -
-                        date: '2026-07-13 01:02:10'
-                        date_format: "Aujourd'hui"
-                        actual_balance: 89.3
+                        actual_balance: 96.5
                         total_price: '-2.40'
                         amount: 2
                         product:
@@ -940,29 +950,25 @@ paths:
                           type: soiree
                           unit_price: '-1.2'
                       -
-                        date: '2026-07-12 23:09:02'
-                        date_format: Hier
-                        actual_balance: 69.3
-                        total_price: '20.00'
-                        amount: 1
-                        product: null
-                      -
-                        date: '2026-07-12 22:38:59'
-                        date_format: Hier
-                        actual_balance: 64.3
-                        total_price: '5.00'
-                        amount: 1
-                        product: null
+                        date: '2026-07-13 01:05:06'
+                        date_format: "Aujourd'hui"
+                        actual_balance: 105.5
+                        total_price: '-9.00'
+                        amount: 3
+                        product:
+                          name: fromage
+                          type: repas
+                          unit_price: '-3'
                   meta:
                     total: 200
                     per_page: 10
                     current_page: 1
                     last_page: 20
-                    first_page_url: 'http://localhost:8000/api/fouaille?page=1&per_page=10'
-                    last_page_url: 'http://localhost:8000/api/fouaille?page=20&per_page=10'
-                    next_page_url: 'http://localhost:8000/api/fouaille?page=2&per_page=10'
+                    first_page_url: 'http://localhost/api/fouaille?page=1&per_page=10'
+                    last_page_url: 'http://localhost/api/fouaille?page=20&per_page=10'
+                    next_page_url: 'http://localhost/api/fouaille?page=2&per_page=10'
                     prev_page_url: '&per_page=10'
-                    path: 'http://localhost:8000/api/fouaille'
+                    path: 'http://localhost/api/fouaille'
                     from: 1
                     to: 10
                 properties:
@@ -973,76 +979,86 @@ paths:
                         type: array
                         example:
                           -
-                            date: '2026-07-13 11:32:59'
+                            date: '2026-07-13 11:21:25'
                             date_format: "Aujourd'hui"
-                            actual_balance: 110.7
-                            total_price: '-3.20'
-                            amount: 2
+                            actual_balance: 57.5
+                            total_price: '50.00'
+                            amount: 1
+                            product: null
+                          -
+                            date: '2026-07-13 11:03:44'
+                            date_format: "Aujourd'hui"
+                            actual_balance: 59.1
+                            total_price: '-1.60'
+                            amount: 1
                             product:
                               name: bordeaux
                               type: oeno
                               unit_price: '-1.6'
                           -
-                            date: '2026-07-13 11:00:49'
+                            date: '2026-07-13 09:09:02'
                             date_format: "Aujourd'hui"
-                            actual_balance: 116.7
-                            total_price: '-6.00'
-                            amount: 2
+                            actual_balance: 68.1
+                            total_price: '-9.00'
+                            amount: 3
                             product:
                               name: fromage
                               type: repas
                               unit_price: '-3'
                           -
-                            date: '2026-07-13 05:49:39'
+                            date: '2026-07-13 08:34:43'
                             date_format: "Aujourd'hui"
-                            actual_balance: 119.7
-                            total_price: '-3.00'
+                            actual_balance: 76.1
+                            total_price: '-8.00'
+                            amount: 4
+                            product:
+                              name: sandwich
+                              type: afterwork
+                              unit_price: '-2'
+                          -
+                            date: '2026-07-13 04:31:22'
+                            date_format: "Aujourd'hui"
+                            actual_balance: 77.3
+                            total_price: '-1.20'
                             amount: 1
                             product:
-                              name: fromage
-                              type: repas
-                              unit_price: '-3'
+                              name: cocktail12
+                              type: soiree
+                              unit_price: '-1.2'
                           -
-                            date: '2026-07-13 04:09:07'
+                            date: '2026-07-13 04:12:02'
                             date_format: "Aujourd'hui"
-                            actual_balance: 127.7
-                            total_price: '-8.00'
-                            amount: 5
+                            actual_balance: 82.1
+                            total_price: '-4.80'
+                            amount: 3
                             product:
                               name: cocktail16
                               type: soiree
                               unit_price: '-1.6'
                           -
-                            date: '2026-07-13 03:42:17'
+                            date: '2026-07-13 02:39:58'
                             date_format: "Aujourd'hui"
-                            actual_balance: 132.5
-                            total_price: '-4.80'
-                            amount: 3
+                            actual_balance: 88.1
+                            total_price: '-6.00'
+                            amount: 5
                             product:
-                              name: bordeaux
-                              type: oeno
-                              unit_price: '-1.6'
+                              name: metre
+                              type: shot
+                              unit_price: '-1.2'
                           -
-                            date: '2026-07-13 02:17:04'
+                            date: '2026-07-13 02:15:06'
                             date_format: "Aujourd'hui"
-                            actual_balance: 136.9
-                            total_price: '-4.40'
-                            amount: 1
+                            actual_balance: 94.1
+                            total_price: '-6.00'
+                            amount: 5
                             product:
-                              name: charcuterie
-                              type: repas
-                              unit_price: '-4.4'
+                              name: cocktail12
+                              type: soiree
+                              unit_price: '-1.2'
                           -
-                            date: '2026-07-13 01:32:33'
+                            date: '2026-07-13 01:35:17'
                             date_format: "Aujourd'hui"
-                            actual_balance: 86.9
-                            total_price: '50.00'
-                            amount: 1
-                            product: null
-                          -
-                            date: '2026-07-13 01:02:10'
-                            date_format: "Aujourd'hui"
-                            actual_balance: 89.3
+                            actual_balance: 96.5
                             total_price: '-2.40'
                             amount: 2
                             product:
@@ -1050,49 +1066,36 @@ paths:
                               type: soiree
                               unit_price: '-1.2'
                           -
-                            date: '2026-07-12 23:09:02'
-                            date_format: Hier
-                            actual_balance: 69.3
-                            total_price: '20.00'
-                            amount: 1
-                            product: null
-                          -
-                            date: '2026-07-12 22:38:59'
-                            date_format: Hier
-                            actual_balance: 64.3
-                            total_price: '5.00'
-                            amount: 1
-                            product: null
+                            date: '2026-07-13 01:05:06'
+                            date_format: "Aujourd'hui"
+                            actual_balance: 105.5
+                            total_price: '-9.00'
+                            amount: 3
+                            product:
+                              name: fromage
+                              type: repas
+                              unit_price: '-3'
                         items:
                           type: object
                           properties:
                             date:
                               type: string
-                              example: '2026-07-13 11:32:59'
+                              example: '2026-07-13 11:21:25'
                             date_format:
                               type: string
                               example: "Aujourd'hui"
                             actual_balance:
                               type: number
-                              example: 110.7
+                              example: 57.5
                             total_price:
                               type: string
-                              example: '-3.20'
+                              example: '50.00'
                             amount:
                               type: integer
-                              example: 2
+                              example: 1
                             product:
-                              type: object
-                              properties:
-                                name:
-                                  type: string
-                                  example: bordeaux
-                                type:
-                                  type: string
-                                  example: oeno
-                                unit_price:
-                                  type: string
-                                  example: '-1.6'
+                              type: string
+                              example: null
                   meta:
                     type: object
                     properties:
@@ -1110,19 +1113,19 @@ paths:
                         example: 20
                       first_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/fouaille?page=1&per_page=10'
+                        example: 'http://localhost/api/fouaille?page=1&per_page=10'
                       last_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/fouaille?page=20&per_page=10'
+                        example: 'http://localhost/api/fouaille?page=20&per_page=10'
                       next_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/fouaille?page=2&per_page=10'
+                        example: 'http://localhost/api/fouaille?page=2&per_page=10'
                       prev_page_url:
                         type: string
                         example: '&per_page=10'
                       path:
                         type: string
-                        example: 'http://localhost:8000/api/fouaille'
+                        example: 'http://localhost/api/fouaille'
                       from:
                         type: integer
                         example: 1
@@ -1194,48 +1197,43 @@ paths:
                 type: object
                 example:
                   data:
-                    associations: []
-                    clubs:
+                    associations:
                       -
-                        id: 17
-                        short_name: eum
-                        user_name: krajcik.llewellyn
-                        name: Shayne
+                        id: 2
+                        short_name: exercitationem
+                        name: Nicklaus
                         logo_url: null
+                    clubs: []
                 properties:
                   data:
                     type: object
                     properties:
                       associations:
                         type: array
-                        example: []
-                      clubs:
-                        type: array
                         example:
                           -
-                            id: 17
-                            short_name: eum
-                            user_name: krajcik.llewellyn
-                            name: Shayne
+                            id: 2
+                            short_name: exercitationem
+                            name: Nicklaus
                             logo_url: null
                         items:
                           type: object
                           properties:
                             id:
                               type: integer
-                              example: 17
+                              example: 2
                             short_name:
                               type: string
-                              example: eum
-                            user_name:
-                              type: string
-                              example: krajcik.llewellyn
+                              example: exercitationem
                             name:
                               type: string
-                              example: Shayne
+                              example: Nicklaus
                             logo_url:
                               type: string
                               example: null
+                      clubs:
+                        type: array
+                        example: []
       tags:
         - Organization
   '/api/organization/{id}':
@@ -1254,23 +1252,29 @@ paths:
                 example:
                   organization:
                     id: 2
-                    short_name: iusto
-                    name: Prince
-                    user_name: roxanne35
-                    description: 'Deleniti itaque nam et ratione voluptates voluptatem repellat. Repellendus vel enim est aut nam quae quia. Et tempore vitae et dolorum.'
-                    website_link: 'http://www.volkman.com/architecto-asperiores-assumenda-voluptatem-ratione'
-                    facebook_link: 'http://zieme.com/'
-                    twitter_link: 'http://mills.org/veniam-qui-ut-ea-tenetur.html'
-                    instagram_link: 'http://eichmann.org/impedit-possimus-dolor-voluptatum-libero-numquam-et.html'
-                    discord_link: 'https://okon.biz/velit-eos-delectus-suscipit-non-numquam-mollitia.html'
-                    email: madelynn07@example.org
+                    short_name: exercitationem
+                    name: Nicklaus
+                    user_name: jast.nils
+                    description: 'Asperiores dolorem cumque quia cupiditate. Labore ut quo et deserunt. In sed est omnis non occaecati.'
+                    website_link: 'http://crooks.net/est-quis-et-tempora-et.html'
+                    facebook_link: 'http://www.gorczany.com/'
+                    twitter_link: 'http://nolan.com/saepe-est-voluptatem-est-autem-non'
+                    instagram_link: 'http://www.schmidt.net/molestias-quis-culpa-non-sed'
+                    discord_link: 'http://www.lowe.info/'
+                    email: pkrajcik@example.net
                     logo_url: null
                   members:
                     -
-                      id: 23
-                      role: president
-                      first_name: Aubrey
-                      last_name: Stamm
+                      id: 54
+                      role: reseaux
+                      first_name: Marshall
+                      last_name: Kovacek
+                      avatar_url: null
+                    -
+                      id: 61
+                      role: trésorier
+                      first_name: Orion
+                      last_name: Friesen
                       avatar_url: null
                 properties:
                   organization:
@@ -1281,34 +1285,34 @@ paths:
                         example: 2
                       short_name:
                         type: string
-                        example: iusto
+                        example: exercitationem
                       name:
                         type: string
-                        example: Prince
+                        example: Nicklaus
                       user_name:
                         type: string
-                        example: roxanne35
+                        example: jast.nils
                       description:
                         type: string
-                        example: 'Deleniti itaque nam et ratione voluptates voluptatem repellat. Repellendus vel enim est aut nam quae quia. Et tempore vitae et dolorum.'
+                        example: 'Asperiores dolorem cumque quia cupiditate. Labore ut quo et deserunt. In sed est omnis non occaecati.'
                       website_link:
                         type: string
-                        example: 'http://www.volkman.com/architecto-asperiores-assumenda-voluptatem-ratione'
+                        example: 'http://crooks.net/est-quis-et-tempora-et.html'
                       facebook_link:
                         type: string
-                        example: 'http://zieme.com/'
+                        example: 'http://www.gorczany.com/'
                       twitter_link:
                         type: string
-                        example: 'http://mills.org/veniam-qui-ut-ea-tenetur.html'
+                        example: 'http://nolan.com/saepe-est-voluptatem-est-autem-non'
                       instagram_link:
                         type: string
-                        example: 'http://eichmann.org/impedit-possimus-dolor-voluptatum-libero-numquam-et.html'
+                        example: 'http://www.schmidt.net/molestias-quis-culpa-non-sed'
                       discord_link:
                         type: string
-                        example: 'https://okon.biz/velit-eos-delectus-suscipit-non-numquam-mollitia.html'
+                        example: 'http://www.lowe.info/'
                       email:
                         type: string
-                        example: madelynn07@example.org
+                        example: pkrajcik@example.net
                       logo_url:
                         type: string
                         example: null
@@ -1316,26 +1320,32 @@ paths:
                     type: array
                     example:
                       -
-                        id: 23
-                        role: president
-                        first_name: Aubrey
-                        last_name: Stamm
+                        id: 54
+                        role: reseaux
+                        first_name: Marshall
+                        last_name: Kovacek
+                        avatar_url: null
+                      -
+                        id: 61
+                        role: trésorier
+                        first_name: Orion
+                        last_name: Friesen
                         avatar_url: null
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 23
+                          example: 54
                         role:
                           type: string
-                          example: president
+                          example: reseaux
                         first_name:
                           type: string
-                          example: Aubrey
+                          example: Marshall
                         last_name:
                           type: string
-                          example: Stamm
+                          example: Kovacek
                         avatar_url:
                           type: string
                           example: null
@@ -1629,221 +1639,121 @@ paths:
                 example:
                   data:
                     -
-                      id: 7
-                      event_id: null
+                      id: 55
+                      event_id: 6
                       body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 2 jours'
-                      uploaded_at: '2026-07-10 22:27:03'
+                      uploaded_since: 'il y a 1 jour'
+                      uploaded_at: '2026-07-12 09:49:08'
                       color: '#0865D2'
                       categories:
                         -
                           name: 'Admis 2023'
-                      created_at: '2026-07-10 22:27:03'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 1
-                      reaction: null
-                      comment_count: 1
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: false
-                        id: 67
-                        name: 'Isadore Gutkowski'
-                        user_name: davin.muller
-                        short_name: null
-                        logo_url: null
-                    -
-                      id: 100
-                      event_id: null
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 4 jours'
-                      uploaded_at: '2026-07-09 07:54:53'
-                      color: '#0865D2'
-                      categories:
-                        -
-                          name: 'Admis 2023'
-                        -
-                          name: 'Admis 2023'
-                      created_at: '2026-07-09 07:54:53'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 1
-                      reaction: null
-                      comment_count: 3
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: true
-                        id: 16
-                        name: Joan
-                        user_name: block.trevion
-                        short_name: autem
-                        logo_url: null
-                    -
-                      id: 41
-                      event_id: 25
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 4 jours'
-                      uploaded_at: '2026-07-08 13:40:44'
-                      color: '#0865D2'
-                      categories:
-                        -
-                          name: 'Admis 2023'
-                        -
-                          name: 'Admis 2023'
-                      created_at: '2026-07-08 13:40:44'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 1
-                      reaction: null
-                      comment_count: 3
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: true
-                        id: 17
-                        name: Shayne
-                        user_name: krajcik.llewellyn
-                        short_name: eum
-                        logo_url: null
-                    -
-                      id: 66
-                      event_id: 11
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 6 jours'
-                      uploaded_at: '2026-07-07 07:51:45'
-                      color: '#D20808'
-                      categories:
-                        -
-                          name: 'Admis 2023'
-                        -
-                          name: Fouailles
-                      created_at: '2026-07-07 07:51:45'
-                      updated_at: '2026-07-13 11:33:28'
+                      created_at: '2026-07-12 09:49:08'
+                      updated_at: '2026-07-13 11:49:56'
                       reaction_count: 0
                       reaction: null
                       comment_count: 4
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: true
-                        id: 16
-                        name: Joan
-                        user_name: block.trevion
-                        short_name: autem
-                        logo_url: null
-                    -
-                      id: 67
-                      event_id: 30
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 6 jours'
-                      uploaded_at: '2026-07-06 23:21:41'
-                      color: '#0865D2'
-                      categories:
+                      medias:
                         -
-                          name: 'Admis 2023'
-                      created_at: '2026-07-06 23:21:41'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 2
-                      reaction: null
-                      comment_count: 3
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: true
-                        id: 18
-                        name: Christy
-                        user_name: kenny12
-                        short_name: molestiae
-                        logo_url: null
-                    -
-                      id: 88
-                      event_id: 10
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 1 semaine'
-                      uploaded_at: '2026-07-06 08:56:55'
-                      color: '#0865D2'
-                      categories:
-                        -
-                          name: 'Admis 2023'
-                      created_at: '2026-07-06 08:56:55'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 0
-                      reaction: null
-                      comment_count: 2
-                      medias: []
+                          id: 1
+                          url: 'https://via.placeholder.com/640x480.png/00dd22?text=quia'
+                          type: image
                       author:
                         user_is_author: false
                         is_organization: false
-                        id: 28
-                        name: 'Maximilian Pfeffer'
-                        user_name: danial.fahey
-                        short_name: null
-                        logo_url: null
-                    -
-                      id: 86
-                      event_id: null
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 1 semaine'
-                      uploaded_at: '2026-07-04 15:51:01'
-                      color: '#0865D2'
-                      categories:
-                        -
-                          name: 'Admis 2023'
-                      created_at: '2026-07-04 15:51:01'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 0
-                      reaction: null
-                      comment_count: 4
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: true
-                        id: 6
-                        name: Bernardo
-                        user_name: thelma14
-                        short_name: hic
-                        logo_url: null
-                    -
-                      id: 91
-                      event_id: null
-                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                      uploaded_since: 'il y a 1 semaine'
-                      uploaded_at: '2026-07-01 03:27:54'
-                      color: '#D20808'
-                      categories:
-                        -
-                          name: Fouailles
-                        -
-                          name: 'Admis 2023'
-                      created_at: '2026-07-01 03:27:54'
-                      updated_at: '2026-07-13 11:33:28'
-                      reaction_count: 1
-                      reaction: null
-                      comment_count: 1
-                      medias: []
-                      author:
-                        user_is_author: false
-                        is_organization: false
-                        id: 56
-                        name: 'Erwin Price'
-                        user_name: alyce32
+                        id: 35
+                        name: 'Griffin Jaskolski'
+                        user_name: schiller.willard
                         short_name: null
                         logo_url: null
                     -
                       id: 76
-                      event_id: null
+                      event_id: 8
                       body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
                       uploaded_since: 'il y a 1 semaine'
-                      uploaded_at: '2026-06-30 16:33:01'
+                      uploaded_at: '2026-07-03 15:29:21'
                       color: '#08D2C9'
                       categories:
                         -
                           name: 'Admis 2023'
                         -
                           name: Poly
+                      created_at: '2026-07-03 15:29:21'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 0
+                      reaction: null
+                      comment_count: 3
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: true
+                        id: 12
+                        name: Mittie
+                        user_name: jacobson.ayla
+                        short_name: labore
+                        logo_url: null
+                    -
+                      id: 96
+                      event_id: 10
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 1 semaine'
+                      uploaded_at: '2026-07-02 18:40:27'
+                      color: '#0865D2'
+                      categories:
                         -
-                          name: Neurchi
-                      created_at: '2026-06-30 16:33:01'
-                      updated_at: '2026-07-13 11:33:28'
+                          name: 'Admis 2023'
+                      created_at: '2026-07-02 18:40:27'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 0
+                      reaction: null
+                      comment_count: 3
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: true
+                        id: 14
+                        name: Nels
+                        user_name: greenholt.aidan
+                        short_name: possimus
+                        logo_url: null
+                    -
+                      id: 41
+                      event_id: 9
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 1 semaine'
+                      uploaded_at: '2026-06-30 13:48:40'
+                      color: '#D2BE08'
+                      categories:
+                        -
+                          name: 'Admis 2023'
+                        -
+                          name: 'Clubs et Assos'
+                      created_at: '2026-06-30 13:48:40'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 1
+                      reaction: null
+                      comment_count: 1
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: true
+                        id: 17
+                        name: Tierra
+                        user_name: bartoletti.fritz
+                        short_name: quibusdam
+                        logo_url: null
+                    -
+                      id: 4
+                      event_id: null
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 2 semaines'
+                      uploaded_at: '2026-06-29 00:39:02'
+                      color: '#0865D2'
+                      categories:
+                        -
+                          name: 'Admis 2023'
+                      created_at: '2026-06-29 00:39:02'
+                      updated_at: '2026-07-13 11:49:56'
                       reaction_count: 0
                       reaction: null
                       comment_count: 2
@@ -1851,45 +1761,147 @@ paths:
                       author:
                         user_is_author: false
                         is_organization: false
-                        id: 75
-                        name: 'Evelyn McLaughlin'
-                        user_name: gusikowski.dedrick
+                        id: 74
+                        name: 'Dino Konopelski'
+                        user_name: joaquin04
                         short_name: null
                         logo_url: null
                     -
-                      id: 97
-                      event_id: null
+                      id: 73
+                      event_id: 14
                       body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
                       uploaded_since: 'il y a 2 semaines'
-                      uploaded_at: '2026-06-28 00:10:18'
+                      uploaded_at: '2026-06-28 07:34:49'
                       color: '#0865D2'
                       categories:
                         -
                           name: 'Admis 2023'
-                      created_at: '2026-06-28 00:10:18'
-                      updated_at: '2026-07-13 11:33:28'
+                        -
+                          name: 'Boite Tactique'
+                      created_at: '2026-06-28 07:34:49'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 0
+                      reaction: null
+                      comment_count: 1
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: false
+                        id: 85
+                        name: 'Orland Towne'
+                        user_name: roberbrunner
+                        short_name: null
+                        logo_url: null
+                    -
+                      id: 2
+                      event_id: null
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 2 semaines'
+                      uploaded_at: '2026-06-27 22:51:16'
+                      color: '#0865D2'
+                      categories:
+                        -
+                          name: 'Admis 2023'
+                      created_at: '2026-06-27 22:51:16'
+                      updated_at: '2026-07-13 11:49:56'
                       reaction_count: 1
                       reaction: null
-                      comment_count: 5
+                      comment_count: 2
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: false
+                        id: 53
+                        name: 'Adella Cremin'
+                        user_name: cleora35
+                        short_name: null
+                        logo_url: null
+                    -
+                      id: 13
+                      event_id: null
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 2 semaines'
+                      uploaded_at: '2026-06-26 15:08:27'
+                      color: '#0865D2'
+                      categories:
+                        -
+                          name: 'Admis 2023'
+                      created_at: '2026-06-26 15:08:27'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 0
+                      reaction: null
+                      comment_count: 2
                       medias: []
                       author:
                         user_is_author: false
                         is_organization: true
+                        id: 4
+                        name: Stephania
+                        user_name: joanny.kihn
+                        short_name: impedit
+                        logo_url: null
+                    -
+                      id: 59
+                      event_id: 7
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 2 semaines'
+                      uploaded_at: '2026-06-25 01:28:44'
+                      color: '#0865D2'
+                      categories:
+                        -
+                          name: 'Admis 2023'
+                        -
+                          name: 'Admis 2023'
+                      created_at: '2026-06-25 01:28:44'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 0
+                      reaction: null
+                      comment_count: 4
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: false
                         id: 7
-                        name: Taylor
-                        user_name: ondricka.columbus
-                        short_name: ad
+                        name: 'Norris Watsica'
+                        user_name: hollie47
+                        short_name: null
+                        logo_url: null
+                    -
+                      id: 62
+                      event_id: 26
+                      body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                      uploaded_since: 'il y a 2 semaines'
+                      uploaded_at: '2026-06-24 12:22:57'
+                      color: '#08D241'
+                      categories:
+                        -
+                          name: 'Objets Perdus'
+                        -
+                          name: 'Admis 2023'
+                      created_at: '2026-06-24 12:22:57'
+                      updated_at: '2026-07-13 11:49:56'
+                      reaction_count: 0
+                      reaction: null
+                      comment_count: 3
+                      medias: []
+                      author:
+                        user_is_author: false
+                        is_organization: false
+                        id: 37
+                        name: 'Cydney Lemke'
+                        user_name: aokon
+                        short_name: null
                         logo_url: null
                   meta:
                     total: 17
                     per_page: 10
                     current_page: 1
                     last_page: 2
-                    first_page_url: 'http://localhost:8000/api/post?page=1&per_page=10'
-                    last_page_url: 'http://localhost:8000/api/post?page=2&per_page=10'
-                    next_page_url: 'http://localhost:8000/api/post?page=2&per_page=10'
+                    first_page_url: 'http://localhost/api/post?page=1&per_page=10'
+                    last_page_url: 'http://localhost/api/post?page=2&per_page=10'
+                    next_page_url: 'http://localhost/api/post?page=2&per_page=10'
                     prev_page_url: '&per_page=10'
-                    path: 'http://localhost:8000/api/post'
+                    path: 'http://localhost/api/post'
                     from: 1
                     to: 10
                 properties:
@@ -1897,221 +1909,121 @@ paths:
                     type: array
                     example:
                       -
-                        id: 7
-                        event_id: null
+                        id: 55
+                        event_id: 6
                         body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 2 jours'
-                        uploaded_at: '2026-07-10 22:27:03'
+                        uploaded_since: 'il y a 1 jour'
+                        uploaded_at: '2026-07-12 09:49:08'
                         color: '#0865D2'
                         categories:
                           -
                             name: 'Admis 2023'
-                        created_at: '2026-07-10 22:27:03'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 1
-                        reaction: null
-                        comment_count: 1
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: false
-                          id: 67
-                          name: 'Isadore Gutkowski'
-                          user_name: davin.muller
-                          short_name: null
-                          logo_url: null
-                      -
-                        id: 100
-                        event_id: null
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 4 jours'
-                        uploaded_at: '2026-07-09 07:54:53'
-                        color: '#0865D2'
-                        categories:
-                          -
-                            name: 'Admis 2023'
-                          -
-                            name: 'Admis 2023'
-                        created_at: '2026-07-09 07:54:53'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 1
-                        reaction: null
-                        comment_count: 3
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: true
-                          id: 16
-                          name: Joan
-                          user_name: block.trevion
-                          short_name: autem
-                          logo_url: null
-                      -
-                        id: 41
-                        event_id: 25
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 4 jours'
-                        uploaded_at: '2026-07-08 13:40:44'
-                        color: '#0865D2'
-                        categories:
-                          -
-                            name: 'Admis 2023'
-                          -
-                            name: 'Admis 2023'
-                        created_at: '2026-07-08 13:40:44'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 1
-                        reaction: null
-                        comment_count: 3
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: true
-                          id: 17
-                          name: Shayne
-                          user_name: krajcik.llewellyn
-                          short_name: eum
-                          logo_url: null
-                      -
-                        id: 66
-                        event_id: 11
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 6 jours'
-                        uploaded_at: '2026-07-07 07:51:45'
-                        color: '#D20808'
-                        categories:
-                          -
-                            name: 'Admis 2023'
-                          -
-                            name: Fouailles
-                        created_at: '2026-07-07 07:51:45'
-                        updated_at: '2026-07-13 11:33:28'
+                        created_at: '2026-07-12 09:49:08'
+                        updated_at: '2026-07-13 11:49:56'
                         reaction_count: 0
                         reaction: null
                         comment_count: 4
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: true
-                          id: 16
-                          name: Joan
-                          user_name: block.trevion
-                          short_name: autem
-                          logo_url: null
-                      -
-                        id: 67
-                        event_id: 30
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 6 jours'
-                        uploaded_at: '2026-07-06 23:21:41'
-                        color: '#0865D2'
-                        categories:
+                        medias:
                           -
-                            name: 'Admis 2023'
-                        created_at: '2026-07-06 23:21:41'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 2
-                        reaction: null
-                        comment_count: 3
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: true
-                          id: 18
-                          name: Christy
-                          user_name: kenny12
-                          short_name: molestiae
-                          logo_url: null
-                      -
-                        id: 88
-                        event_id: 10
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 1 semaine'
-                        uploaded_at: '2026-07-06 08:56:55'
-                        color: '#0865D2'
-                        categories:
-                          -
-                            name: 'Admis 2023'
-                        created_at: '2026-07-06 08:56:55'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 0
-                        reaction: null
-                        comment_count: 2
-                        medias: []
+                            id: 1
+                            url: 'https://via.placeholder.com/640x480.png/00dd22?text=quia'
+                            type: image
                         author:
                           user_is_author: false
                           is_organization: false
-                          id: 28
-                          name: 'Maximilian Pfeffer'
-                          user_name: danial.fahey
-                          short_name: null
-                          logo_url: null
-                      -
-                        id: 86
-                        event_id: null
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 1 semaine'
-                        uploaded_at: '2026-07-04 15:51:01'
-                        color: '#0865D2'
-                        categories:
-                          -
-                            name: 'Admis 2023'
-                        created_at: '2026-07-04 15:51:01'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 0
-                        reaction: null
-                        comment_count: 4
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: true
-                          id: 6
-                          name: Bernardo
-                          user_name: thelma14
-                          short_name: hic
-                          logo_url: null
-                      -
-                        id: 91
-                        event_id: null
-                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                        uploaded_since: 'il y a 1 semaine'
-                        uploaded_at: '2026-07-01 03:27:54'
-                        color: '#D20808'
-                        categories:
-                          -
-                            name: Fouailles
-                          -
-                            name: 'Admis 2023'
-                        created_at: '2026-07-01 03:27:54'
-                        updated_at: '2026-07-13 11:33:28'
-                        reaction_count: 1
-                        reaction: null
-                        comment_count: 1
-                        medias: []
-                        author:
-                          user_is_author: false
-                          is_organization: false
-                          id: 56
-                          name: 'Erwin Price'
-                          user_name: alyce32
+                          id: 35
+                          name: 'Griffin Jaskolski'
+                          user_name: schiller.willard
                           short_name: null
                           logo_url: null
                       -
                         id: 76
-                        event_id: null
+                        event_id: 8
                         body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
                         uploaded_since: 'il y a 1 semaine'
-                        uploaded_at: '2026-06-30 16:33:01'
+                        uploaded_at: '2026-07-03 15:29:21'
                         color: '#08D2C9'
                         categories:
                           -
                             name: 'Admis 2023'
                           -
                             name: Poly
+                        created_at: '2026-07-03 15:29:21'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 0
+                        reaction: null
+                        comment_count: 3
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: true
+                          id: 12
+                          name: Mittie
+                          user_name: jacobson.ayla
+                          short_name: labore
+                          logo_url: null
+                      -
+                        id: 96
+                        event_id: 10
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 1 semaine'
+                        uploaded_at: '2026-07-02 18:40:27'
+                        color: '#0865D2'
+                        categories:
                           -
-                            name: Neurchi
-                        created_at: '2026-06-30 16:33:01'
-                        updated_at: '2026-07-13 11:33:28'
+                            name: 'Admis 2023'
+                        created_at: '2026-07-02 18:40:27'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 0
+                        reaction: null
+                        comment_count: 3
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: true
+                          id: 14
+                          name: Nels
+                          user_name: greenholt.aidan
+                          short_name: possimus
+                          logo_url: null
+                      -
+                        id: 41
+                        event_id: 9
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 1 semaine'
+                        uploaded_at: '2026-06-30 13:48:40'
+                        color: '#D2BE08'
+                        categories:
+                          -
+                            name: 'Admis 2023'
+                          -
+                            name: 'Clubs et Assos'
+                        created_at: '2026-06-30 13:48:40'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 1
+                        reaction: null
+                        comment_count: 1
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: true
+                          id: 17
+                          name: Tierra
+                          user_name: bartoletti.fritz
+                          short_name: quibusdam
+                          logo_url: null
+                      -
+                        id: 4
+                        event_id: null
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 2 semaines'
+                        uploaded_at: '2026-06-29 00:39:02'
+                        color: '#0865D2'
+                        categories:
+                          -
+                            name: 'Admis 2023'
+                        created_at: '2026-06-29 00:39:02'
+                        updated_at: '2026-07-13 11:49:56'
                         reaction_count: 0
                         reaction: null
                         comment_count: 2
@@ -2119,53 +2031,155 @@ paths:
                         author:
                           user_is_author: false
                           is_organization: false
-                          id: 75
-                          name: 'Evelyn McLaughlin'
-                          user_name: gusikowski.dedrick
+                          id: 74
+                          name: 'Dino Konopelski'
+                          user_name: joaquin04
                           short_name: null
                           logo_url: null
                       -
-                        id: 97
-                        event_id: null
+                        id: 73
+                        event_id: 14
                         body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
                         uploaded_since: 'il y a 2 semaines'
-                        uploaded_at: '2026-06-28 00:10:18'
+                        uploaded_at: '2026-06-28 07:34:49'
                         color: '#0865D2'
                         categories:
                           -
                             name: 'Admis 2023'
-                        created_at: '2026-06-28 00:10:18'
-                        updated_at: '2026-07-13 11:33:28'
+                          -
+                            name: 'Boite Tactique'
+                        created_at: '2026-06-28 07:34:49'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 0
+                        reaction: null
+                        comment_count: 1
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: false
+                          id: 85
+                          name: 'Orland Towne'
+                          user_name: roberbrunner
+                          short_name: null
+                          logo_url: null
+                      -
+                        id: 2
+                        event_id: null
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 2 semaines'
+                        uploaded_at: '2026-06-27 22:51:16'
+                        color: '#0865D2'
+                        categories:
+                          -
+                            name: 'Admis 2023'
+                        created_at: '2026-06-27 22:51:16'
+                        updated_at: '2026-07-13 11:49:56'
                         reaction_count: 1
                         reaction: null
-                        comment_count: 5
+                        comment_count: 2
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: false
+                          id: 53
+                          name: 'Adella Cremin'
+                          user_name: cleora35
+                          short_name: null
+                          logo_url: null
+                      -
+                        id: 13
+                        event_id: null
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 2 semaines'
+                        uploaded_at: '2026-06-26 15:08:27'
+                        color: '#0865D2'
+                        categories:
+                          -
+                            name: 'Admis 2023'
+                        created_at: '2026-06-26 15:08:27'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 0
+                        reaction: null
+                        comment_count: 2
                         medias: []
                         author:
                           user_is_author: false
                           is_organization: true
+                          id: 4
+                          name: Stephania
+                          user_name: joanny.kihn
+                          short_name: impedit
+                          logo_url: null
+                      -
+                        id: 59
+                        event_id: 7
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 2 semaines'
+                        uploaded_at: '2026-06-25 01:28:44'
+                        color: '#0865D2'
+                        categories:
+                          -
+                            name: 'Admis 2023'
+                          -
+                            name: 'Admis 2023'
+                        created_at: '2026-06-25 01:28:44'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 0
+                        reaction: null
+                        comment_count: 4
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: false
                           id: 7
-                          name: Taylor
-                          user_name: ondricka.columbus
-                          short_name: ad
+                          name: 'Norris Watsica'
+                          user_name: hollie47
+                          short_name: null
+                          logo_url: null
+                      -
+                        id: 62
+                        event_id: 26
+                        body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
+                        uploaded_since: 'il y a 2 semaines'
+                        uploaded_at: '2026-06-24 12:22:57'
+                        color: '#08D241'
+                        categories:
+                          -
+                            name: 'Objets Perdus'
+                          -
+                            name: 'Admis 2023'
+                        created_at: '2026-06-24 12:22:57'
+                        updated_at: '2026-07-13 11:49:56'
+                        reaction_count: 0
+                        reaction: null
+                        comment_count: 3
+                        medias: []
+                        author:
+                          user_is_author: false
+                          is_organization: false
+                          id: 37
+                          name: 'Cydney Lemke'
+                          user_name: aokon
+                          short_name: null
                           logo_url: null
                     items:
                       type: object
                       properties:
                         id:
                           type: integer
-                          example: 7
+                          example: 55
                         event_id:
-                          type: string
-                          example: null
+                          type: integer
+                          example: 6
                         body:
                           type: string
                           example: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
                         uploaded_since:
                           type: string
-                          example: 'il y a 2 jours'
+                          example: 'il y a 1 jour'
                         uploaded_at:
                           type: string
-                          example: '2026-07-10 22:27:03'
+                          example: '2026-07-12 09:49:08'
                         color:
                           type: string
                           example: '#0865D2'
@@ -2182,22 +2196,38 @@ paths:
                                 example: 'Admis 2023'
                         created_at:
                           type: string
-                          example: '2026-07-10 22:27:03'
+                          example: '2026-07-12 09:49:08'
                         updated_at:
                           type: string
-                          example: '2026-07-13 11:33:28'
+                          example: '2026-07-13 11:49:56'
                         reaction_count:
                           type: integer
-                          example: 1
+                          example: 0
                         reaction:
                           type: string
                           example: null
                         comment_count:
                           type: integer
-                          example: 1
+                          example: 4
                         medias:
                           type: array
-                          example: []
+                          example:
+                            -
+                              id: 1
+                              url: 'https://via.placeholder.com/640x480.png/00dd22?text=quia'
+                              type: image
+                          items:
+                            type: object
+                            properties:
+                              id:
+                                type: integer
+                                example: 1
+                              url:
+                                type: string
+                                example: 'https://via.placeholder.com/640x480.png/00dd22?text=quia'
+                              type:
+                                type: string
+                                example: image
                         author:
                           type: object
                           properties:
@@ -2209,13 +2239,13 @@ paths:
                               example: false
                             id:
                               type: integer
-                              example: 67
+                              example: 35
                             name:
                               type: string
-                              example: 'Isadore Gutkowski'
+                              example: 'Griffin Jaskolski'
                             user_name:
                               type: string
-                              example: davin.muller
+                              example: schiller.willard
                             short_name:
                               type: string
                               example: null
@@ -2239,19 +2269,19 @@ paths:
                         example: 2
                       first_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/post?page=1&per_page=10'
+                        example: 'http://localhost/api/post?page=1&per_page=10'
                       last_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/post?page=2&per_page=10'
+                        example: 'http://localhost/api/post?page=2&per_page=10'
                       next_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/post?page=2&per_page=10'
+                        example: 'http://localhost/api/post?page=2&per_page=10'
                       prev_page_url:
                         type: string
                         example: '&per_page=10'
                       path:
                         type: string
-                        example: 'http://localhost:8000/api/post'
+                        example: 'http://localhost/api/post'
                       from:
                         type: integer
                         example: 1
@@ -2276,27 +2306,27 @@ paths:
                 example:
                   data:
                     id: 1
-                    event_id: null
+                    event_id: 6
                     body: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
-                    uploaded_since: 'il y a 3 semaines'
-                    uploaded_at: '2026-06-19 19:10:11'
-                    color: '#046b70'
+                    uploaded_since: 'il y a 6 jours'
+                    uploaded_at: '2026-07-07 05:15:56'
+                    color: '#08D241'
                     categories:
                       -
-                        name: Activités
-                    created_at: '2026-06-19 19:10:11'
-                    updated_at: '2026-07-13 11:33:28'
-                    reaction_count: 0
+                        name: 'Objets Perdus'
+                    created_at: '2026-07-07 05:15:56'
+                    updated_at: '2026-07-13 11:49:56'
+                    reaction_count: 1
                     reaction: null
                     comment_count: 5
                     medias: []
                     author:
                       user_is_author: false
                       is_organization: false
-                      id: 59
-                      name: 'Cornelius Prohaska'
+                      id: 77
+                      name: 'Sally Stoltenberg'
                       short_name: null
-                      user_name: shanahan.lennie
+                      user_name: aurelio82
                       logo_url: null
                 properties:
                   data:
@@ -2306,40 +2336,40 @@ paths:
                         type: integer
                         example: 1
                       event_id:
-                        type: string
-                        example: null
+                        type: integer
+                        example: 6
                       body:
                         type: string
                         example: '{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","marks":[{"type":"bold"}],"text":"Ceci"},{"type":"text","text":" est un test de la "},{"type":"text","marks":[{"type":"underline"}],"text":"mise en forme"},{"type":"text","text":" des "},{"type":"text","marks":[{"type":"italic"}],"text":"posts"},{"type":"text","text":"."}]}]}'
                       uploaded_since:
                         type: string
-                        example: 'il y a 3 semaines'
+                        example: 'il y a 6 jours'
                       uploaded_at:
                         type: string
-                        example: '2026-06-19 19:10:11'
+                        example: '2026-07-07 05:15:56'
                       color:
                         type: string
-                        example: '#046b70'
+                        example: '#08D241'
                       categories:
                         type: array
                         example:
                           -
-                            name: Activités
+                            name: 'Objets Perdus'
                         items:
                           type: object
                           properties:
                             name:
                               type: string
-                              example: Activités
+                              example: 'Objets Perdus'
                       created_at:
                         type: string
-                        example: '2026-06-19 19:10:11'
+                        example: '2026-07-07 05:15:56'
                       updated_at:
                         type: string
-                        example: '2026-07-13 11:33:28'
+                        example: '2026-07-13 11:49:56'
                       reaction_count:
                         type: integer
-                        example: 0
+                        example: 1
                       reaction:
                         type: string
                         example: null
@@ -2360,16 +2390,16 @@ paths:
                             example: false
                           id:
                             type: integer
-                            example: 59
+                            example: 77
                           name:
                             type: string
-                            example: 'Cornelius Prohaska'
+                            example: 'Sally Stoltenberg'
                           short_name:
                             type: string
                             example: null
                           user_name:
                             type: string
-                            example: shanahan.lennie
+                            example: aurelio82
                           logo_url:
                             type: string
                             example: null
@@ -2510,11 +2540,11 @@ paths:
                     per_page: 3
                     current_page: 2
                     last_page: 1
-                    first_page_url: 'http://localhost:8000/api/post/1/comment?page=1&per_page=3'
-                    last_page_url: 'http://localhost:8000/api/post/1/comment?page=1&per_page=3'
+                    first_page_url: 'http://localhost/api/post/1/comment?page=1&per_page=3'
+                    last_page_url: 'http://localhost/api/post/1/comment?page=1&per_page=3'
                     next_page_url: '&per_page=3'
-                    prev_page_url: 'http://localhost:8000/api/post/1/comment?page=1&per_page=3'
-                    path: 'http://localhost:8000/api/post/1/comment'
+                    prev_page_url: 'http://localhost/api/post/1/comment?page=1&per_page=3'
+                    path: 'http://localhost/api/post/1/comment'
                     from: null
                     to: null
                     in_page: 0
@@ -2542,19 +2572,19 @@ paths:
                         example: 1
                       first_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/post/1/comment?page=1&per_page=3'
+                        example: 'http://localhost/api/post/1/comment?page=1&per_page=3'
                       last_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/post/1/comment?page=1&per_page=3'
+                        example: 'http://localhost/api/post/1/comment?page=1&per_page=3'
                       next_page_url:
                         type: string
                         example: '&per_page=3'
                       prev_page_url:
                         type: string
-                        example: 'http://localhost:8000/api/post/1/comment?page=1&per_page=3'
+                        example: 'http://localhost/api/post/1/comment?page=1&per_page=3'
                       path:
                         type: string
-                        example: 'http://localhost:8000/api/post/1/comment'
+                        example: 'http://localhost/api/post/1/comment'
                       from:
                         type: string
                         example: null
@@ -2586,8 +2616,8 @@ paths:
                     organization_id: null
                     parent_comment_id: null
                     body: 'This is a comment'
-                    updated_at: '2026-07-13T09:33:33.000000Z'
-                    created_at: '2026-07-13T09:33:33.000000Z'
+                    updated_at: '2026-07-13T09:50:00.000000Z'
+                    created_at: '2026-07-13T09:50:00.000000Z'
                     id: 205
                 properties:
                   message:
@@ -2613,10 +2643,10 @@ paths:
                         example: 'This is a comment'
                       updated_at:
                         type: string
-                        example: '2026-07-13T09:33:33.000000Z'
+                        example: '2026-07-13T09:50:00.000000Z'
                       created_at:
                         type: string
-                        example: '2026-07-13T09:33:33.000000Z'
+                        example: '2026-07-13T09:50:00.000000Z'
                       id:
                         type: integer
                         example: 205
@@ -2686,7 +2716,7 @@ paths:
                     reaction:
                       id: 2
                       icon: 👍
-                    reaction_count: 1
+                    reaction_count: 2
                 properties:
                   message:
                     type: string
@@ -2723,7 +2753,7 @@ paths:
                             example: 👍
                       reaction_count:
                         type: integer
-                        example: 1
+                        example: 2
       tags:
         - Post
       requestBody:
@@ -2749,18 +2779,18 @@ paths:
       description: 'Fecth a summary list of all reactions to a Post'
       parameters: []
       responses:
-        200:
+        500:
           description: ''
           content:
             application/json:
               schema:
                 type: object
                 example:
-                  data: []
+                  message: 'Server Error'
                 properties:
-                  data:
-                    type: array
-                    example: []
+                  message:
+                    type: string
+                    example: 'Server Error'
       tags:
         - Post
     parameters:
@@ -2916,13 +2946,13 @@ paths:
           name: medias_id
           description: 'The ID of the media to delete'
           example:
-            - 6
+            - 9
           required: true
           schema:
             type: array
             description: 'The ID of the media to delete'
             example:
-              - 6
+              - 9
             items:
               type: integer
       responses:
@@ -3005,47 +3035,47 @@ paths:
                         logo_url: null
                       -
                         id: 2
-                        user_name: ijacobson
+                        user_name: nbartell
                         name: null
                         logo_url: null
                       -
                         id: 3
-                        user_name: crystel21
+                        user_name: hand.rodrick
                         name: null
                         logo_url: null
                       -
                         id: 4
-                        user_name: clotilde95
+                        user_name: mante.meredith
                         name: null
                         logo_url: null
                       -
                         id: 5
-                        user_name: kuphal.miguel
+                        user_name: angeline77
                         name: null
                         logo_url: null
                       -
                         id: 6
-                        user_name: njaskolski
+                        user_name: wilmer.orn
                         name: null
                         logo_url: null
                       -
                         id: 7
-                        user_name: marcos.reichel
+                        user_name: hollie47
                         name: null
                         logo_url: null
                       -
                         id: 8
-                        user_name: raynor.leola
+                        user_name: ankunding.verdie
                         name: null
                         logo_url: null
                       -
                         id: 9
-                        user_name: shanahan.elroy
+                        user_name: becker.crystel
                         name: null
                         logo_url: null
                       -
                         id: 10
-                        user_name: nelda55
+                        user_name: jonathon91
                         name: null
                         logo_url: null
                     meta:
@@ -3053,11 +3083,11 @@ paths:
                       per_page: 10
                       current_page: 1
                       last_page: 11
-                      first_page_url: 'http://localhost:8000/api/user?page=1&per_page=10'
-                      last_page_url: 'http://localhost:8000/api/user?page=11&per_page=10'
-                      next_page_url: 'http://localhost:8000/api/user?page=2&per_page=10'
+                      first_page_url: 'http://localhost/api/user?page=1&per_page=10'
+                      last_page_url: 'http://localhost/api/user?page=11&per_page=10'
+                      next_page_url: 'http://localhost/api/user?page=2&per_page=10'
                       prev_page_url: '&per_page=10'
-                      path: 'http://localhost:8000/api/user'
+                      path: 'http://localhost/api/user'
                       from: 1
                       to: 10
                 properties:
@@ -3074,47 +3104,47 @@ paths:
                             logo_url: null
                           -
                             id: 2
-                            user_name: ijacobson
+                            user_name: nbartell
                             name: null
                             logo_url: null
                           -
                             id: 3
-                            user_name: crystel21
+                            user_name: hand.rodrick
                             name: null
                             logo_url: null
                           -
                             id: 4
-                            user_name: clotilde95
+                            user_name: mante.meredith
                             name: null
                             logo_url: null
                           -
                             id: 5
-                            user_name: kuphal.miguel
+                            user_name: angeline77
                             name: null
                             logo_url: null
                           -
                             id: 6
-                            user_name: njaskolski
+                            user_name: wilmer.orn
                             name: null
                             logo_url: null
                           -
                             id: 7
-                            user_name: marcos.reichel
+                            user_name: hollie47
                             name: null
                             logo_url: null
                           -
                             id: 8
-                            user_name: raynor.leola
+                            user_name: ankunding.verdie
                             name: null
                             logo_url: null
                           -
                             id: 9
-                            user_name: shanahan.elroy
+                            user_name: becker.crystel
                             name: null
                             logo_url: null
                           -
                             id: 10
-                            user_name: nelda55
+                            user_name: jonathon91
                             name: null
                             logo_url: null
                         items:
@@ -3149,19 +3179,19 @@ paths:
                             example: 11
                           first_page_url:
                             type: string
-                            example: 'http://localhost:8000/api/user?page=1&per_page=10'
+                            example: 'http://localhost/api/user?page=1&per_page=10'
                           last_page_url:
                             type: string
-                            example: 'http://localhost:8000/api/user?page=11&per_page=10'
+                            example: 'http://localhost/api/user?page=11&per_page=10'
                           next_page_url:
                             type: string
-                            example: 'http://localhost:8000/api/user?page=2&per_page=10'
+                            example: 'http://localhost/api/user?page=2&per_page=10'
                           prev_page_url:
                             type: string
                             example: '&per_page=10'
                           path:
                             type: string
-                            example: 'http://localhost:8000/api/user'
+                            example: 'http://localhost/api/user'
                           from:
                             type: integer
                             example: 1
@@ -3185,8 +3215,6 @@ paths:
                 example:
                   message: 'Validation failed'
                   errors:
-                    phone:
-                      - 'The phone field must be at least 3 characters.'
                     sector:
                       - 'The selected sector is invalid.'
                     admission_year:
@@ -3198,12 +3226,6 @@ paths:
                   errors:
                     type: object
                     properties:
-                      phone:
-                        type: array
-                        example:
-                          - 'The phone field must be at least 3 characters.'
-                        items:
-                          type: string
                       sector:
                         type: array
                         example:
@@ -3228,27 +3250,27 @@ paths:
                 user_name:
                   type: string
                   description: 'Must be at least 3 characters. Must not be greater than 255 characters.'
-                  example: nobedgnwlixtyasp
+                  example: vxemwybtffucvft
                   nullable: false
                 phone:
                   type: string
                   description: 'Must be at least 3 characters. Must not be greater than 10 characters.'
-                  example: p
+                  example: xcuk
                   nullable: false
                 sector:
                   type: integer
                   description: 'The <code>id</code> of an existing record in the sectors table.'
-                  example: 20
+                  example: 13
                   nullable: false
                 admission_year:
                   type: integer
                   description: 'Must be at least 2000. Must not be greater than 3000.'
-                  example: 25
+                  example: 4
                   nullable: false
                 description:
                   type: string
                   description: 'Must not be greater than 100 characters.'
-                  example: 'In sint quasi placeat qui.'
+                  example: 'Nulla exercitationem dolor quas totam consequatur repellat nihil molestias.'
                   nullable: false
     delete:
       summary: 'Delete Current User'
@@ -3287,128 +3309,128 @@ paths:
                   data:
                     -
                       name: default1
-                      path: 'http://localhost:8000/storage/images/avatars/default1.png'
+                      path: 'http://localhost/storage/images/avatars/default1.png'
                     -
                       name: default2
-                      path: 'http://localhost:8000/storage/images/avatars/default2.png'
+                      path: 'http://localhost/storage/images/avatars/default2.png'
                     -
                       name: default3
-                      path: 'http://localhost:8000/storage/images/avatars/default3.png'
+                      path: 'http://localhost/storage/images/avatars/default3.png'
                     -
                       name: default4
-                      path: 'http://localhost:8000/storage/images/avatars/default4.png'
+                      path: 'http://localhost/storage/images/avatars/default4.png'
                     -
                       name: default5
-                      path: 'http://localhost:8000/storage/images/avatars/default5.png'
+                      path: 'http://localhost/storage/images/avatars/default5.png'
                     -
                       name: default6
-                      path: 'http://localhost:8000/storage/images/avatars/default6.png'
+                      path: 'http://localhost/storage/images/avatars/default6.png'
                     -
                       name: default7
-                      path: 'http://localhost:8000/storage/images/avatars/default7.png'
+                      path: 'http://localhost/storage/images/avatars/default7.png'
                     -
                       name: default8
-                      path: 'http://localhost:8000/storage/images/avatars/default8.png'
+                      path: 'http://localhost/storage/images/avatars/default8.png'
                     -
                       name: default9
-                      path: 'http://localhost:8000/storage/images/avatars/default9.png'
+                      path: 'http://localhost/storage/images/avatars/default9.png'
                     -
                       name: default10
-                      path: 'http://localhost:8000/storage/images/avatars/default10.png'
+                      path: 'http://localhost/storage/images/avatars/default10.png'
                     -
                       name: default11
-                      path: 'http://localhost:8000/storage/images/avatars/default11.png'
+                      path: 'http://localhost/storage/images/avatars/default11.png'
                     -
                       name: default12
-                      path: 'http://localhost:8000/storage/images/avatars/default12.png'
+                      path: 'http://localhost/storage/images/avatars/default12.png'
                     -
                       name: default13
-                      path: 'http://localhost:8000/storage/images/avatars/default13.png'
+                      path: 'http://localhost/storage/images/avatars/default13.png'
                     -
                       name: default14
-                      path: 'http://localhost:8000/storage/images/avatars/default14.png'
+                      path: 'http://localhost/storage/images/avatars/default14.png'
                     -
                       name: default15
-                      path: 'http://localhost:8000/storage/images/avatars/default15.png'
+                      path: 'http://localhost/storage/images/avatars/default15.png'
                     -
                       name: default16
-                      path: 'http://localhost:8000/storage/images/avatars/default16.png'
+                      path: 'http://localhost/storage/images/avatars/default16.png'
                     -
                       name: default17
-                      path: 'http://localhost:8000/storage/images/avatars/default17.png'
+                      path: 'http://localhost/storage/images/avatars/default17.png'
                     -
                       name: default18
-                      path: 'http://localhost:8000/storage/images/avatars/default18.png'
+                      path: 'http://localhost/storage/images/avatars/default18.png'
                     -
                       name: default19
-                      path: 'http://localhost:8000/storage/images/avatars/default19.png'
+                      path: 'http://localhost/storage/images/avatars/default19.png'
                     -
                       name: default20
-                      path: 'http://localhost:8000/storage/images/avatars/default20.png'
+                      path: 'http://localhost/storage/images/avatars/default20.png'
                 properties:
                   data:
                     type: array
                     example:
                       -
                         name: default1
-                        path: 'http://localhost:8000/storage/images/avatars/default1.png'
+                        path: 'http://localhost/storage/images/avatars/default1.png'
                       -
                         name: default2
-                        path: 'http://localhost:8000/storage/images/avatars/default2.png'
+                        path: 'http://localhost/storage/images/avatars/default2.png'
                       -
                         name: default3
-                        path: 'http://localhost:8000/storage/images/avatars/default3.png'
+                        path: 'http://localhost/storage/images/avatars/default3.png'
                       -
                         name: default4
-                        path: 'http://localhost:8000/storage/images/avatars/default4.png'
+                        path: 'http://localhost/storage/images/avatars/default4.png'
                       -
                         name: default5
-                        path: 'http://localhost:8000/storage/images/avatars/default5.png'
+                        path: 'http://localhost/storage/images/avatars/default5.png'
                       -
                         name: default6
-                        path: 'http://localhost:8000/storage/images/avatars/default6.png'
+                        path: 'http://localhost/storage/images/avatars/default6.png'
                       -
                         name: default7
-                        path: 'http://localhost:8000/storage/images/avatars/default7.png'
+                        path: 'http://localhost/storage/images/avatars/default7.png'
                       -
                         name: default8
-                        path: 'http://localhost:8000/storage/images/avatars/default8.png'
+                        path: 'http://localhost/storage/images/avatars/default8.png'
                       -
                         name: default9
-                        path: 'http://localhost:8000/storage/images/avatars/default9.png'
+                        path: 'http://localhost/storage/images/avatars/default9.png'
                       -
                         name: default10
-                        path: 'http://localhost:8000/storage/images/avatars/default10.png'
+                        path: 'http://localhost/storage/images/avatars/default10.png'
                       -
                         name: default11
-                        path: 'http://localhost:8000/storage/images/avatars/default11.png'
+                        path: 'http://localhost/storage/images/avatars/default11.png'
                       -
                         name: default12
-                        path: 'http://localhost:8000/storage/images/avatars/default12.png'
+                        path: 'http://localhost/storage/images/avatars/default12.png'
                       -
                         name: default13
-                        path: 'http://localhost:8000/storage/images/avatars/default13.png'
+                        path: 'http://localhost/storage/images/avatars/default13.png'
                       -
                         name: default14
-                        path: 'http://localhost:8000/storage/images/avatars/default14.png'
+                        path: 'http://localhost/storage/images/avatars/default14.png'
                       -
                         name: default15
-                        path: 'http://localhost:8000/storage/images/avatars/default15.png'
+                        path: 'http://localhost/storage/images/avatars/default15.png'
                       -
                         name: default16
-                        path: 'http://localhost:8000/storage/images/avatars/default16.png'
+                        path: 'http://localhost/storage/images/avatars/default16.png'
                       -
                         name: default17
-                        path: 'http://localhost:8000/storage/images/avatars/default17.png'
+                        path: 'http://localhost/storage/images/avatars/default17.png'
                       -
                         name: default18
-                        path: 'http://localhost:8000/storage/images/avatars/default18.png'
+                        path: 'http://localhost/storage/images/avatars/default18.png'
                       -
                         name: default19
-                        path: 'http://localhost:8000/storage/images/avatars/default19.png'
+                        path: 'http://localhost/storage/images/avatars/default19.png'
                       -
                         name: default20
-                        path: 'http://localhost:8000/storage/images/avatars/default20.png'
+                        path: 'http://localhost/storage/images/avatars/default20.png'
                     items:
                       type: object
                       properties:
@@ -3417,7 +3439,7 @@ paths:
                           example: default1
                         path:
                           type: string
-                          example: 'http://localhost:8000/storage/images/avatars/default1.png'
+                          example: 'http://localhost/storage/images/avatars/default1.png'
       tags:
         - User
   /api/user/me:
@@ -3445,9 +3467,9 @@ paths:
                     bde_id: 1001
                     avatar_url: null
                     admission_year: '2024'
-                    created_at: '2026-07-13 11:33:21'
-                    updated_at: '2026-07-13 11:33:32'
-                    email_verified_at: '2026-07-13T09:33:21.000000Z'
+                    created_at: '2026-07-13 11:49:48'
+                    updated_at: '2026-07-13 11:50:00'
+                    email_verified_at: '2026-07-13T09:49:48.000000Z'
                     sector: IR
                     sector_id: 2
                     birth_date: '2000-01-01'
@@ -3488,13 +3510,13 @@ paths:
                         example: '2024'
                       created_at:
                         type: string
-                        example: '2026-07-13 11:33:21'
+                        example: '2026-07-13 11:49:48'
                       updated_at:
                         type: string
-                        example: '2026-07-13 11:33:32'
+                        example: '2026-07-13 11:50:00'
                       email_verified_at:
                         type: string
-                        example: '2026-07-13T09:33:21.000000Z'
+                        example: '2026-07-13T09:49:48.000000Z'
                       sector:
                         type: string
                         example: IR
@@ -3531,8 +3553,8 @@ paths:
                     description: "Je suis fabien et je suis le goat, ceci est ma description, je suis le directeur de TP. Il faut pas lui dire mais j'ai pour objectif de ne pas donner le diplome d'ingénieur à l'élève Romain Bourdin"
                     avatar_url: null
                     admission_year: '2024'
-                    created_at: '2026-07-13 11:33:21'
-                    updated_at: '2026-07-13 11:33:21'
+                    created_at: '2026-07-13 11:49:48'
+                    updated_at: '2026-07-13 11:49:48'
                     sector: IR
                     birth_date: '2000-01-01'
                   organizations: []
@@ -3563,10 +3585,10 @@ paths:
                         example: '2024'
                       created_at:
                         type: string
-                        example: '2026-07-13 11:33:21'
+                        example: '2026-07-13 11:49:48'
                       updated_at:
                         type: string
-                        example: '2026-07-13 11:33:21'
+                        example: '2026-07-13 11:49:48'
                       sector:
                         type: string
                         example: IR
@@ -3653,12 +3675,12 @@ paths:
                 default_link:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: sf
+                  example: dxcmfwsqulauwvix
                   nullable: false
                 default_name:
                   type: string
                   description: 'Must not be greater than 255 characters.'
-                  example: zh
+                  example: chxvqspzpgwgcme
                   nullable: false
               required:
                 - default_link
